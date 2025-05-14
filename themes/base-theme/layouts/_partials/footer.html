@@ -1,0 +1,18 @@
+<footer class="footer-with-particles">
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="footer-content">
+            <div class="profile-photo">
+                <img src="{{ "images/erik_square_compressed.png" | relURL }}" alt="Erik Tuck" class="profile-img">
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a href="https://medium.com/@eriktuck" target="_blank" title="Medium"><span class="social-icon">Medium</span></a>
+                    <a href="https://github.com/eriktuck/eriktuck" target="_blank" title="GitHub"><span class="social-icon">GitHub</span></a>
+                    <a href="https://www.linkedin.com/in/eriktanderson/" target="_blank" title="LinkedIn"><span class="social-icon">LinkedIn</span></a>
+                </div>
+                <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}</p>
+            </div>
+        </div>
+    </div>
+</footer>

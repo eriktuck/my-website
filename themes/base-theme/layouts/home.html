@@ -1,0 +1,144 @@
+{{ define "main" }}
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hi, I'm Erik</h1>
+            <p class="subtitle">Data Scientist | ML/AI Engineer</p>
+            <p class="lead">Welcome to my knowledge hub. Discover insights, resources, and lessons learned that might help bridge gaps in your own learning journey. I believe in learning out loud—sharing my notes, observations, and discoveries as they unfold. Join me in imagining how technology can help us transcend the limitations of the mind.</p>
+            <div class="hero-buttons">
+                <a href="https://io.eriktuck.com" class="button primary-button">Explore the Hub</a>
+                <a href="#projects" class="button secondary-button">View My Work</a>
+            </div>
+        </div>
+        <div class="hero-visualization">
+            <div class="knowledge-graph">
+              <div class="knowledge-graph-header">
+                <button class="expand-graph-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                  </svg> Expand
+                </button>
+              </div>
+              <div id="cy"></div>
+            </div>
+
+            <!-- Modal Structure -->
+            <div class="modal-overlay">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title">Knowledge Graph</h3>
+                  <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div id="cy-fullscreen"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="projects" class="featured-projects">
+    <div class="section-header">
+        <h2>Featured Projects</h2>
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel-track">
+            {{ $projects := where .Site.RegularPages "Section" "projects" }}
+            {{ range $index, $project := first 6 $projects }}
+            <div class="carousel-slide" data-number="0{{ add $index 1 }}">
+                <div class="project-card">
+                    {{ with .Params.image }}
+                    <div class="project-image">
+                        <img src="{{ . }}" alt="{{ $.Title }}" />
+                    </div>
+                    {{ end }}
+                    <div class="project-content">
+                        <div class="project-tags">
+                            {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        {{ with .Params.summary }}
+                        <p>{{ . }}</p>
+                        {{ else }}
+                        <p>{{ .Summary }}</p>
+                        {{ end }}
+                        <div class="project-links">
+                            {{ with .Params.demo_url }}
+                            <a href="{{ . }}" class="button small-button" target="_blank">Live Demo</a>
+                            {{ end }}
+                            {{ with .Params.code_url }}
+                            <a href="{{ . }}" class="button small-button" target="_blank">View Code</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
+        <div class="carousel-nav">
+            <button class="carousel-prev" aria-label="Previous slide">&larr;</button>
+            <div class="carousel-dots">
+                {{ $totalProjects := len (where .Site.RegularPages "Section" "projects") }}
+                {{ $totalDots := sub $totalProjects 2 }}
+                {{ if gt $totalDots 0 }}
+                    {{ range $index := seq 0 (sub $totalDots 1) }}
+                    <button class="carousel-dot{{ if eq $index 0 }} active{{ end }}" data-slide="{{ $index }}" aria-label="Go to position {{ add $index 1 }}"></button>
+                    {{ end }}
+                {{ end }}
+            </div>
+            <button class="carousel-next" aria-label="Next slide">&rarr;</button>
+        </div>
+    </div>
+    
+    <div class="view-all">
+        <a href="/projects/" class="button">All Projects</a>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="latest-posts">
+    <div class="section-header">
+        <h2>Latest Writing</h2>
+    </div>
+    <div class="post-list">
+        {{ $allPosts := where .Site.RegularPages "Section" "blog" }}
+        {{ $postsToShow := where $allPosts "Params.featured" "ne" false }}
+        {{ range $index, $post := first 3 $postsToShow }}
+        <div class="post-card" data-number="0{{ add $index 1 }}">
+            <!-- {{ with .Params.image }}
+            <div class="post-image">
+                <img src="{{ . }}" alt="{{ $.Title }}" />
+            </div>
+            {{ end }} -->
+            <div class="post-content">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <div class="post-meta">
+                    <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+                    {{ with .Params.tags }}
+                    {{ range . }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                {{ with .Params.summary }}
+                <p>{{ . }}</p>
+                {{ else }}
+                <p>{{ .Summary }}</p>
+                {{ end }}
+                <a href="{{ .Permalink }}" class="read-more">Continue Reading</a>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div class="view-all">
+        <a href="/blog/" class="button">All Writing</a>
+    </div>
+  </section>
+{{ end }}

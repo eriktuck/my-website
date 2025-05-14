@@ -1,0 +1,34 @@
+{{- $mainJS := resources.Get "js/main.js" }}
+{{- $cytoscapeGraph := resources.Get "js/cytoscape-graph.js" }}
+{{- $cytoscapeInit := resources.Get "js/cytoscape-init.js" }}
+
+<!-- Load Cytoscape.js from CDN -->
+<script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script>
+<script src="https://unpkg.com/cytoscape-cola/cytoscape-cola.js"></script>
+
+<!-- Load particles.js from CDN -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+  window.hugoData = {
+    cytoscapeData: {{ .Site.Data.cytoscape_data | jsonify }}
+  };
+</script>
+
+{{- $scripts := slice $mainJS $cytoscapeGraph $cytoscapeInit | resources.Concat "js/bundle.js" -}}
+{{- $opts := dict
+  "minify" (not hugo.IsDevelopment)
+  "sourceMap" (cond hugo.IsDevelopment "external" "")
+  "targetPath" "js/bundle.js"
+}}
+
+{{- with $scripts | js.Build $opts }}
+  {{- if hugo.IsDevelopment }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{- else }}
+    {{- with . | fingerprint "sha512" }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{- end }}
+  {{- end }}
+{{- end }}

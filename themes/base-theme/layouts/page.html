@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+      <h1>{{ .Title }}</h1>
+      <div class="meta">
+          <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+          {{ with .Params.tags }}
+          <div class="tags-container">
+              {{ range . }}
+              <span class="tag">{{ . }}</span>
+              {{ end }}
+          </div>
+          {{ end }}
+      </div>
+  </header>
+  
+  {{ with .Params.image }}
+  <div class="featured-image">
+      <div class="image-container">
+          <img src="{{ . }}" alt="{{ $.Title }}" />
+          {{ with $.Params.imageCredit }}
+              <div class="image-credit">
+                  {{ . | markdownify }}
+              </div>
+          {{ end }}
+      </div>
+  </div>
+  {{ end }}
+
+  <div class="content">
+      {{ .Content }}
+  </div>
+  
+  {{ if eq .Section "projects" }}
+  <div class="project-links">
+      {{ with .Params.github }}
+      <a href="{{ . }}" class="button" target="_blank">Source Code</a>
+      {{ end }}
+      {{ with .Params.liveDemo }}
+      <a href="{{ . }}" class="button primary" target="_blank">Live Demo</a>
+      {{ end }}
+  </div>
+  {{ end }}
+  
+  <div class="taxonomies">
+      {{ with .Params.tags }}
+      Filed under: 
+      {{ range $index, $tag := . }}
+      {{ if $index }}, {{ end }}
+      <a href="/tags/{{ $tag | urlize }}">{{ $tag }}</a>
+      {{ end }}
+      {{ end }}
+  </div>
+</article>
+{{ end }}

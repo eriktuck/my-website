@@ -1,0 +1,7 @@
+baseURL = "https://eriktuck.com/"
+languageCode = "en-us"
+title = "Erik Tuck - Portfolio"
+theme = "base-theme"
+
+[[module.imports]]
+  path = "hugo-admonitions"

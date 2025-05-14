@@ -1,0 +1,53 @@
+baseURL = "https://eriktuck.com/"
+languageCode = "en-us"
+title = 'My New Hugo Site'
+theme = 'base-theme'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    identifier = "hub"
+    name = "Hub"
+    url = "https://io.eriktuck.com"
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
+
+[markup]
+    [markup.highlight]
+      codeFences = true
+      guessSyntax = false
+      lineNos = false
+      style = "evergarden"
+      
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['\$', '\$']]
+[params]
+  math = true

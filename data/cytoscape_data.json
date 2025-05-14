@@ -1,0 +1,2871 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "matplotlib style sheets",
+                    "label": "matplotlib style sheets",
+                    "url": "https://io.eriktuck.com/base/matplotlib+style+sheets"
+                }
+            },
+            {
+                "data": {
+                    "id": "GoDaddy",
+                    "label": "GoDaddy",
+                    "url": "https://io.eriktuck.com/base/GoDaddy"
+                }
+            },
+            {
+                "data": {
+                    "id": "reproducible research",
+                    "label": "reproducible research",
+                    "url": "https://io.eriktuck.com/base/reproducible+research"
+                }
+            },
+            {
+                "data": {
+                    "id": "cloud computing",
+                    "label": "cloud computing",
+                    "url": "https://io.eriktuck.com/base/cloud+computing"
+                }
+            },
+            {
+                "data": {
+                    "id": "1 is 1 in Python",
+                    "label": "1 is 1 in Python",
+                    "url": "https://io.eriktuck.com/guides/1+is+1+in+Python"
+                }
+            },
+            {
+                "data": {
+                    "id": "Maggie Appleton",
+                    "label": "Maggie Appleton",
+                    "url": "https://io.eriktuck.com/base/Maggie+Appleton"
+                }
+            },
+            {
+                "data": {
+                    "id": "enable GPU or TPU in Kaggle",
+                    "label": "enable GPU or TPU in Kaggle",
+                    "url": "https://io.eriktuck.com/base/enable+GPU+or+TPU+in+Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "nano",
+                    "label": "nano",
+                    "url": "https://io.eriktuck.com/base/nano"
+                }
+            },
+            {
+                "data": {
+                    "id": "Altair",
+                    "label": "Altair",
+                    "url": "https://io.eriktuck.com/base/Altair"
+                }
+            },
+            {
+                "data": {
+                    "id": "enable GPU or TPU in Google Colab",
+                    "label": "enable GPU or TPU in Google Colab",
+                    "url": "https://io.eriktuck.com/base/enable+GPU+or+TPU+in+Google+Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "WHOIS domain lookup",
+                    "label": "WHOIS domain lookup",
+                    "url": "https://io.eriktuck.com/base/WHOIS+domain+lookup"
+                }
+            },
+            {
+                "data": {
+                    "id": "multi-factor authentication",
+                    "label": "multi-factor authentication",
+                    "url": "https://io.eriktuck.com/base/multi-factor+authentication"
+                }
+            },
+            {
+                "data": {
+                    "id": "changelog",
+                    "label": "changelog",
+                    "url": "https://io.eriktuck.com/base/changelog"
+                }
+            },
+            {
+                "data": {
+                    "id": "URL parameters",
+                    "label": "URL parameters",
+                    "url": "https://io.eriktuck.com/base/URL+parameters"
+                }
+            },
+            {
+                "data": {
+                    "id": "vim",
+                    "label": "vim",
+                    "url": "https://io.eriktuck.com/base/vim"
+                }
+            },
+            {
+                "data": {
+                    "id": "How to set up your laptop for data science",
+                    "label": "How to set up your laptop for data science",
+                    "url": "https://io.eriktuck.com/guides/How+to+set+up+your+laptop+for+data+science"
+                }
+            },
+            {
+                "data": {
+                    "id": "Windows PowerShell",
+                    "label": "Windows PowerShell",
+                    "url": "https://io.eriktuck.com/base/Windows+PowerShell"
+                }
+            },
+            {
+                "data": {
+                    "id": "DOM",
+                    "label": "DOM",
+                    "url": "https://io.eriktuck.com/base/DOM"
+                }
+            },
+            {
+                "data": {
+                    "id": "Opal",
+                    "label": "Opal",
+                    "url": "https://io.eriktuck.com/base/Opal"
+                }
+            },
+            {
+                "data": {
+                    "id": "entity-relationship diagram",
+                    "label": "entity-relationship diagram",
+                    "url": "https://io.eriktuck.com/base/entity-relationship+diagram"
+                }
+            },
+            {
+                "data": {
+                    "id": "Scrollama",
+                    "label": "Scrollama",
+                    "url": "https://io.eriktuck.com/base/Scrollama"
+                }
+            },
+            {
+                "data": {
+                    "id": "geocode",
+                    "label": "geocode",
+                    "url": "https://io.eriktuck.com/base/geocode"
+                }
+            },
+            {
+                "data": {
+                    "id": "document intelligence",
+                    "label": "document intelligence",
+                    "url": "https://io.eriktuck.com/base/document+intelligence"
+                }
+            },
+            {
+                "data": {
+                    "id": "domain name system",
+                    "label": "domain name system",
+                    "url": "https://io.eriktuck.com/base/domain+name+system"
+                }
+            },
+            {
+                "data": {
+                    "id": "Datasaurus Dozen",
+                    "label": "Datasaurus Dozen",
+                    "url": "https://io.eriktuck.com/base/Datasaurus+Dozen"
+                }
+            },
+            {
+                "data": {
+                    "id": "Unsplash",
+                    "label": "Unsplash",
+                    "url": "https://io.eriktuck.com/base/Unsplash"
+                }
+            },
+            {
+                "data": {
+                    "id": "docstrings",
+                    "label": "docstrings",
+                    "url": "https://io.eriktuck.com/base/docstrings"
+                }
+            },
+            {
+                "data": {
+                    "id": "requirements.txt",
+                    "label": "requirements.txt",
+                    "url": "https://io.eriktuck.com/base/requirements.txt"
+                }
+            },
+            {
+                "data": {
+                    "id": "Atlas",
+                    "label": "Atlas",
+                    "url": "https://io.eriktuck.com/base/Atlas"
+                }
+            },
+            {
+                "data": {
+                    "id": "Open Broadcaster Software",
+                    "label": "Open Broadcaster Software",
+                    "url": "https://io.eriktuck.com/base/Open+Broadcaster+Software"
+                }
+            },
+            {
+                "data": {
+                    "id": "Vega-lite",
+                    "label": "Vega-lite",
+                    "url": "https://io.eriktuck.com/base/Vega-lite"
+                }
+            },
+            {
+                "data": {
+                    "id": "mathpix",
+                    "label": "mathpix",
+                    "url": "https://io.eriktuck.com/base/mathpix"
+                }
+            },
+            {
+                "data": {
+                    "id": "database schema",
+                    "label": "database schema",
+                    "url": "https://io.eriktuck.com/base/database+schema"
+                }
+            },
+            {
+                "data": {
+                    "id": "Develop an App with Vertex AI Gemini 1.0 Pro",
+                    "label": "Develop an App with Vertex AI Gemini 1.0 Pro",
+                    "url": "https://io.eriktuck.com/guides/Develop+an+App+with+Vertex+AI+Gemini+1.0+Pro"
+                }
+            },
+            {
+                "data": {
+                    "id": "geoJSON",
+                    "label": "geoJSON",
+                    "url": "https://io.eriktuck.com/base/geoJSON"
+                }
+            },
+            {
+                "data": {
+                    "id": "database management system",
+                    "label": "database management system",
+                    "url": "https://io.eriktuck.com/base/database+management+system"
+                }
+            },
+            {
+                "data": {
+                    "id": "infographic",
+                    "label": "infographic",
+                    "url": "https://io.eriktuck.com/base/infographic"
+                }
+            },
+            {
+                "data": {
+                    "id": "send PDFs to Kindle",
+                    "label": "send PDFs to Kindle",
+                    "url": "https://io.eriktuck.com/base/send+PDFs+to+Kindle"
+                }
+            },
+            {
+                "data": {
+                    "id": "note taking",
+                    "label": "note taking",
+                    "url": "https://io.eriktuck.com/base/note+taking"
+                }
+            },
+            {
+                "data": {
+                    "id": "ASCII",
+                    "label": "ASCII",
+                    "url": "https://io.eriktuck.com/base/ASCII"
+                }
+            },
+            {
+                "data": {
+                    "id": "The definitive guide to installing Claude Code on Windows",
+                    "label": "The definitive guide to installing Claude Code on Windows",
+                    "url": "https://io.eriktuck.com/guides/The+definitive+guide+to+installing+Claude+Code+on+Windows"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker",
+                    "label": "Time Tracker",
+                    "url": "https://io.eriktuck.com/guides/Time+Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "affordance",
+                    "label": "affordance",
+                    "url": "https://io.eriktuck.com/base/affordance"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature notes",
+                    "label": "literature notes",
+                    "url": "https://io.eriktuck.com/base/literature+notes"
+                }
+            },
+            {
+                "data": {
+                    "id": "digital data collection tools",
+                    "label": "digital data collection tools",
+                    "url": "https://io.eriktuck.com/base/digital+data+collection+tools"
+                }
+            },
+            {
+                "data": {
+                    "id": "Docker",
+                    "label": "Docker",
+                    "url": "https://io.eriktuck.com/base/Docker"
+                }
+            },
+            {
+                "data": {
+                    "id": "ShareX",
+                    "label": "ShareX",
+                    "url": "https://io.eriktuck.com/base/ShareX"
+                }
+            },
+            {
+                "data": {
+                    "id": "d3.js",
+                    "label": "d3.js",
+                    "url": "https://io.eriktuck.com/base/d3.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "Windows Subsystem for Linux",
+                    "label": "Windows Subsystem for Linux",
+                    "url": "https://io.eriktuck.com/base/Windows+Subsystem+for+Linux"
+                }
+            },
+            {
+                "data": {
+                    "id": "pandoc",
+                    "label": "pandoc",
+                    "url": "https://io.eriktuck.com/base/pandoc"
+                }
+            },
+            {
+                "data": {
+                    "id": "Typora",
+                    "label": "Typora",
+                    "url": "https://io.eriktuck.com/base/Typora"
+                }
+            },
+            {
+                "data": {
+                    "id": "markdown code blocks",
+                    "label": "markdown code blocks",
+                    "url": "https://io.eriktuck.com/base/markdown+code+blocks"
+                }
+            },
+            {
+                "data": {
+                    "id": "Earth Sensing",
+                    "label": "Earth Sensing",
+                    "url": "https://io.eriktuck.com/base/Earth+Sensing"
+                }
+            },
+            {
+                "data": {
+                    "id": "project organization for data science",
+                    "label": "project organization for data science",
+                    "url": "https://io.eriktuck.com/base/project+organization+for+data+science"
+                }
+            },
+            {
+                "data": {
+                    "id": "Mapbox Scrollytelling",
+                    "label": "Mapbox Scrollytelling",
+                    "url": "https://io.eriktuck.com/base/Mapbox+Scrollytelling"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder",
+                    "label": "c4builder",
+                    "url": "https://io.eriktuck.com/base/c4builder"
+                }
+            },
+            {
+                "data": {
+                    "id": "Bootstrap",
+                    "label": "Bootstrap",
+                    "url": "https://io.eriktuck.com/base/Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Colab",
+                    "label": "Google Colab",
+                    "url": "https://io.eriktuck.com/base/Google+Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "geopandas",
+                    "label": "geopandas",
+                    "url": "https://io.eriktuck.com/base/geopandas"
+                }
+            },
+            {
+                "data": {
+                    "id": "NAIP",
+                    "label": "NAIP",
+                    "url": "https://io.eriktuck.com/base/NAIP"
+                }
+            },
+            {
+                "data": {
+                    "id": "mathematics",
+                    "label": "mathematics",
+                    "url": "https://io.eriktuck.com/base/mathematics"
+                }
+            },
+            {
+                "data": {
+                    "id": "database markup language",
+                    "label": "database markup language",
+                    "url": "https://io.eriktuck.com/base/database+markup+language"
+                }
+            },
+            {
+                "data": {
+                    "id": "Notion",
+                    "label": "Notion",
+                    "url": "https://io.eriktuck.com/base/Notion"
+                }
+            },
+            {
+                "data": {
+                    "id": "mount Google Drive to Google Colab",
+                    "label": "mount Google Drive to Google Colab",
+                    "url": "https://io.eriktuck.com/base/mount+Google+Drive+to+Google+Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "mutually exclusive and exhaustive",
+                    "label": "mutually exclusive and exhaustive",
+                    "url": "https://io.eriktuck.com/base/mutually+exclusive+and+exhaustive"
+                }
+            },
+            {
+                "data": {
+                    "id": "show file extensions",
+                    "label": "show file extensions",
+                    "url": "https://io.eriktuck.com/base/show+file+extensions"
+                }
+            },
+            {
+                "data": {
+                    "id": "DOMContentLoaded",
+                    "label": "DOMContentLoaded",
+                    "url": "https://io.eriktuck.com/base/DOMContentLoaded"
+                }
+            },
+            {
+                "data": {
+                    "id": "pareto chart",
+                    "label": "pareto chart",
+                    "url": "https://io.eriktuck.com/base/pareto+chart"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 3",
+                    "label": "Time Tracker - part 3",
+                    "url": "https://io.eriktuck.com/guides/Time+Tracker+-+part+3"
+                }
+            },
+            {
+                "data": {
+                    "id": "Dr. Anna Lembke",
+                    "label": "Dr. Anna Lembke",
+                    "url": "https://io.eriktuck.com/base/Dr.+Anna+Lembke"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering",
+                    "label": "LLM engineering",
+                    "url": "https://io.eriktuck.com/base/LLM+engineering"
+                }
+            },
+            {
+                "data": {
+                    "id": "dynamic host configuration protocol",
+                    "label": "dynamic host configuration protocol",
+                    "url": "https://io.eriktuck.com/base/dynamic+host+configuration+protocol"
+                }
+            },
+            {
+                "data": {
+                    "id": "GraphViz",
+                    "label": "GraphViz",
+                    "url": "https://io.eriktuck.com/base/GraphViz"
+                }
+            },
+            {
+                "data": {
+                    "id": "productivity",
+                    "label": "productivity",
+                    "url": "https://io.eriktuck.com/base/productivity"
+                }
+            },
+            {
+                "data": {
+                    "id": "PARA method",
+                    "label": "PARA method",
+                    "url": "https://io.eriktuck.com/base/PARA+method"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome",
+                    "label": "\ud83d\udc4b welcome",
+                    "url": "https://io.eriktuck.com/%F0%9F%91%8B+welcome"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams",
+                    "label": "diagrams",
+                    "url": "https://io.eriktuck.com/base/diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line interface",
+                    "label": "command line interface",
+                    "url": "https://io.eriktuck.com/base/command+line+interface"
+                }
+            },
+            {
+                "data": {
+                    "id": "data science",
+                    "label": "data science",
+                    "url": "https://io.eriktuck.com/base/data+science"
+                }
+            },
+            {
+                "data": {
+                    "id": "Loom",
+                    "label": "Loom",
+                    "url": "https://io.eriktuck.com/base/Loom"
+                }
+            },
+            {
+                "data": {
+                    "id": "Richard P. Feynman",
+                    "label": "Richard P. Feynman",
+                    "url": "https://io.eriktuck.com/base/Richard+P.+Feynman"
+                }
+            },
+            {
+                "data": {
+                    "id": "every line of code is a liability",
+                    "label": "every line of code is a liability",
+                    "url": "https://io.eriktuck.com/base/every+line+of+code+is+a+liability"
+                }
+            },
+            {
+                "data": {
+                    "id": "H3",
+                    "label": "H3",
+                    "url": "https://io.eriktuck.com/base/H3"
+                }
+            },
+            {
+                "data": {
+                    "id": "spatial reference system",
+                    "label": "spatial reference system",
+                    "url": "https://io.eriktuck.com/base/spatial+reference+system"
+                }
+            },
+            {
+                "data": {
+                    "id": "distance",
+                    "label": "distance",
+                    "url": "https://io.eriktuck.com/base/distance"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdiagram",
+                    "label": "dbdiagram",
+                    "url": "https://io.eriktuck.com/base/dbdiagram"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML",
+                    "label": "c4-PlantUML",
+                    "url": "https://io.eriktuck.com/base/c4-PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer science",
+                    "label": "computer science",
+                    "url": "https://io.eriktuck.com/base/computer+science"
+                }
+            },
+            {
+                "data": {
+                    "id": "Leaflet",
+                    "label": "Leaflet",
+                    "url": "https://io.eriktuck.com/base/Leaflet"
+                }
+            },
+            {
+                "data": {
+                    "id": "encoding",
+                    "label": "encoding",
+                    "url": "https://io.eriktuck.com/base/encoding"
+                }
+            },
+            {
+                "data": {
+                    "id": "level of measurement",
+                    "label": "level of measurement",
+                    "url": "https://io.eriktuck.com/base/level+of+measurement"
+                }
+            },
+            {
+                "data": {
+                    "id": "reconnect BTLE Keyboard Fingerprint ID",
+                    "label": "reconnect BTLE Keyboard Fingerprint ID",
+                    "url": "https://io.eriktuck.com/base/reconnect+BTLE+Keyboard+Fingerprint+ID"
+                }
+            },
+            {
+                "data": {
+                    "id": "Java",
+                    "label": "Java",
+                    "url": "https://io.eriktuck.com/base/Java"
+                }
+            },
+            {
+                "data": {
+                    "id": "Todoist",
+                    "label": "Todoist",
+                    "url": "https://io.eriktuck.com/base/Todoist"
+                }
+            },
+            {
+                "data": {
+                    "id": "Vertex AI",
+                    "label": "Vertex AI",
+                    "url": "https://io.eriktuck.com/base/Vertex+AI"
+                }
+            },
+            {
+                "data": {
+                    "id": "PATH",
+                    "label": "PATH",
+                    "url": "https://io.eriktuck.com/base/PATH"
+                }
+            },
+            {
+                "data": {
+                    "id": "launchers",
+                    "label": "launchers",
+                    "url": "https://io.eriktuck.com/base/launchers"
+                }
+            },
+            {
+                "data": {
+                    "id": "Readwise Reader",
+                    "label": "Readwise Reader",
+                    "url": "https://io.eriktuck.com/base/Readwise+Reader"
+                }
+            },
+            {
+                "data": {
+                    "id": "simulation",
+                    "label": "simulation",
+                    "url": "https://io.eriktuck.com/base/simulation"
+                }
+            },
+            {
+                "data": {
+                    "id": "add application to context menu",
+                    "label": "add application to context menu",
+                    "url": "https://io.eriktuck.com/base/add+application+to+context+menu"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup",
+                    "label": "computer setup",
+                    "url": "https://io.eriktuck.com/hubs/computer+setup"
+                }
+            },
+            {
+                "data": {
+                    "id": "Dr. Nicole LePera",
+                    "label": "Dr. Nicole LePera",
+                    "url": "https://io.eriktuck.com/base/Dr.+Nicole+LePera"
+                }
+            },
+            {
+                "data": {
+                    "id": "Guatemala Data Hub",
+                    "label": "Guatemala Data Hub",
+                    "url": "https://io.eriktuck.com/base/Guatemala+Data+Hub"
+                }
+            },
+            {
+                "data": {
+                    "id": "tidy",
+                    "label": "tidy",
+                    "url": "https://io.eriktuck.com/base/tidy"
+                }
+            },
+            {
+                "data": {
+                    "id": "project organization for Python",
+                    "label": "project organization for Python",
+                    "url": "https://io.eriktuck.com/base/project+organization+for+Python"
+                }
+            },
+            {
+                "data": {
+                    "id": "knowledge management platforms",
+                    "label": "knowledge management platforms",
+                    "url": "https://io.eriktuck.com/base/knowledge+management+platforms"
+                }
+            },
+            {
+                "data": {
+                    "id": "interactive development environment",
+                    "label": "interactive development environment",
+                    "url": "https://io.eriktuck.com/base/interactive+development+environment"
+                }
+            },
+            {
+                "data": {
+                    "id": "SQLite",
+                    "label": "SQLite",
+                    "url": "https://io.eriktuck.com/base/SQLite"
+                }
+            },
+            {
+                "data": {
+                    "id": "PythonAnywhere",
+                    "label": "PythonAnywhere",
+                    "url": "https://io.eriktuck.com/base/PythonAnywhere"
+                }
+            },
+            {
+                "data": {
+                    "id": "PlantUML",
+                    "label": "PlantUML",
+                    "url": "https://io.eriktuck.com/base/PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83c\udf0e home",
+                    "label": "\ud83c\udf0e home",
+                    "url": "https://io.eriktuck.com/%F0%9F%8C%8E+home"
+                }
+            },
+            {
+                "data": {
+                    "id": "debate over statistical methods in detecting racial bias in policing",
+                    "label": "debate over statistical methods in detecting racial bias in policing",
+                    "url": "https://io.eriktuck.com/base/debate+over+statistical+methods+in+detecting+racial+bias+in+policing"
+                }
+            },
+            {
+                "data": {
+                    "id": "hyperplane",
+                    "label": "hyperplane",
+                    "url": "https://io.eriktuck.com/base/hyperplane"
+                }
+            },
+            {
+                "data": {
+                    "id": "convert PDF to Kindle format",
+                    "label": "convert PDF to Kindle format",
+                    "url": "https://io.eriktuck.com/base/convert+PDF+to+Kindle+format"
+                }
+            },
+            {
+                "data": {
+                    "id": "Zotero",
+                    "label": "Zotero",
+                    "url": "https://io.eriktuck.com/base/Zotero"
+                }
+            },
+            {
+                "data": {
+                    "id": "Develop a geospatial web application using Google Apps Script and Leaflet",
+                    "label": "Develop a geospatial web application using Google Apps Script and Leaflet",
+                    "url": "https://io.eriktuck.com/guides/Develop+a+geospatial+web+application+using+Google+Apps+Script+and+Leaflet"
+                }
+            },
+            {
+                "data": {
+                    "id": "data-driven web app",
+                    "label": "data-driven web app",
+                    "url": "https://io.eriktuck.com/base/data-driven+web+app"
+                }
+            },
+            {
+                "data": {
+                    "id": "informed consent",
+                    "label": "informed consent",
+                    "url": "https://io.eriktuck.com/base/informed+consent"
+                }
+            },
+            {
+                "data": {
+                    "id": "Supabase",
+                    "label": "Supabase",
+                    "url": "https://io.eriktuck.com/base/Supabase"
+                }
+            },
+            {
+                "data": {
+                    "id": "How to Get Help",
+                    "label": "How to Get Help",
+                    "url": "https://io.eriktuck.com/base/How+to+Get+Help"
+                }
+            },
+            {
+                "data": {
+                    "id": "mkdocs",
+                    "label": "mkdocs",
+                    "url": "https://io.eriktuck.com/base/mkdocs"
+                }
+            },
+            {
+                "data": {
+                    "id": "collectors fallacy",
+                    "label": "collectors fallacy",
+                    "url": "https://io.eriktuck.com/base/collectors+fallacy"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs",
+                    "label": "dbdocs",
+                    "url": "https://io.eriktuck.com/base/dbdocs"
+                }
+            },
+            {
+                "data": {
+                    "id": "Node.js",
+                    "label": "Node.js",
+                    "url": "https://io.eriktuck.com/base/Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "Kaggle",
+                    "label": "Kaggle",
+                    "url": "https://io.eriktuck.com/base/Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "environment file",
+                    "label": "environment file",
+                    "url": "https://io.eriktuck.com/base/environment+file"
+                }
+            },
+            {
+                "data": {
+                    "id": "form validation",
+                    "label": "form validation",
+                    "url": "https://io.eriktuck.com/base/form+validation"
+                }
+            },
+            {
+                "data": {
+                    "id": "SigKDD",
+                    "label": "SigKDD",
+                    "url": "https://io.eriktuck.com/base/SigKDD"
+                }
+            },
+            {
+                "data": {
+                    "id": "Pre-obligation Checklist",
+                    "label": "Pre-obligation Checklist",
+                    "url": "https://io.eriktuck.com/base/Pre-obligation+Checklist"
+                }
+            },
+            {
+                "data": {
+                    "id": "shell",
+                    "label": "shell",
+                    "url": "https://io.eriktuck.com/base/shell"
+                }
+            },
+            {
+                "data": {
+                    "id": "spinner",
+                    "label": "spinner",
+                    "url": "https://io.eriktuck.com/base/spinner"
+                }
+            },
+            {
+                "data": {
+                    "id": "about me",
+                    "label": "about me",
+                    "url": "https://io.eriktuck.com/about+me"
+                }
+            },
+            {
+                "data": {
+                    "id": "Paul Saffo",
+                    "label": "Paul Saffo",
+                    "url": "https://io.eriktuck.com/base/Paul+Saffo"
+                }
+            },
+            {
+                "data": {
+                    "id": "Arc",
+                    "label": "Arc",
+                    "url": "https://io.eriktuck.com/base/Arc"
+                }
+            },
+            {
+                "data": {
+                    "id": "project organization for databases",
+                    "label": "project organization for databases",
+                    "url": "https://io.eriktuck.com/base/project+organization+for+databases"
+                }
+            },
+            {
+                "data": {
+                    "id": "interactive report",
+                    "label": "interactive report",
+                    "url": "https://io.eriktuck.com/base/interactive+report"
+                }
+            },
+            {
+                "data": {
+                    "id": "IP address",
+                    "label": "IP address",
+                    "url": "https://io.eriktuck.com/base/IP+address"
+                }
+            },
+            {
+                "data": {
+                    "id": "synthetic minority oversampling technique",
+                    "label": "synthetic minority oversampling technique",
+                    "url": "https://io.eriktuck.com/base/synthetic+minority+oversampling+technique"
+                }
+            },
+            {
+                "data": {
+                    "id": "assertion evidence method",
+                    "label": "assertion evidence method",
+                    "url": "https://io.eriktuck.com/base/assertion+evidence+method"
+                }
+            },
+            {
+                "data": {
+                    "id": "Holistic Psychology",
+                    "label": "Holistic Psychology",
+                    "url": "https://io.eriktuck.com/base/Holistic+Psychology"
+                }
+            },
+            {
+                "data": {
+                    "id": "book shelf",
+                    "label": "book shelf",
+                    "url": "https://io.eriktuck.com/hubs/book+shelf"
+                }
+            },
+            {
+                "data": {
+                    "id": "LaTeX",
+                    "label": "LaTeX",
+                    "url": "https://io.eriktuck.com/base/LaTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "planning",
+                    "label": "planning",
+                    "url": "https://io.eriktuck.com/base/planning"
+                }
+            },
+            {
+                "data": {
+                    "id": "Scrollytelling",
+                    "label": "Scrollytelling",
+                    "url": "https://io.eriktuck.com/base/Scrollytelling"
+                }
+            },
+            {
+                "data": {
+                    "id": "Twitch",
+                    "label": "Twitch",
+                    "url": "https://io.eriktuck.com/base/Twitch"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture diagrams",
+                    "label": "software architecture diagrams",
+                    "url": "https://io.eriktuck.com/base/software+architecture+diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature",
+                    "label": "literature",
+                    "url": "https://io.eriktuck.com/hubs/literature"
+                }
+            },
+            {
+                "data": {
+                    "id": "WordPress",
+                    "label": "WordPress",
+                    "url": "https://io.eriktuck.com/base/WordPress"
+                }
+            },
+            {
+                "data": {
+                    "id": "simulated data",
+                    "label": "simulated data",
+                    "url": "https://io.eriktuck.com/base/simulated+data"
+                }
+            },
+            {
+                "data": {
+                    "id": "operations on binary numbers",
+                    "label": "operations on binary numbers",
+                    "url": "https://io.eriktuck.com/base/operations+on+binary+numbers"
+                }
+            },
+            {
+                "data": {
+                    "id": "MathJax",
+                    "label": "MathJax",
+                    "url": "https://io.eriktuck.com/base/MathJax"
+                }
+            },
+            {
+                "data": {
+                    "id": "data science competitions",
+                    "label": "data science competitions",
+                    "url": "https://io.eriktuck.com/base/data+science+competitions"
+                }
+            },
+            {
+                "data": {
+                    "id": "DuckDB",
+                    "label": "DuckDB",
+                    "url": "https://io.eriktuck.com/base/DuckDB"
+                }
+            },
+            {
+                "data": {
+                    "id": "data reidentification",
+                    "label": "data reidentification",
+                    "url": "https://io.eriktuck.com/base/data+reidentification"
+                }
+            },
+            {
+                "data": {
+                    "id": "Develop a web app with Google Apps Script and Bootstrap",
+                    "label": "Develop a web app with Google Apps Script and Bootstrap",
+                    "url": "https://io.eriktuck.com/guides/Develop+a+web+app+with+Google+Apps+Script+and+Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "Total Noise",
+                    "label": "Total Noise",
+                    "url": "https://io.eriktuck.com/base/Total+Noise"
+                }
+            },
+            {
+                "data": {
+                    "id": "matplotlib",
+                    "label": "matplotlib",
+                    "url": "https://io.eriktuck.com/base/matplotlib"
+                }
+            },
+            {
+                "data": {
+                    "id": "numerical analysis",
+                    "label": "numerical analysis",
+                    "url": "https://io.eriktuck.com/base/numerical+analysis"
+                }
+            },
+            {
+                "data": {
+                    "id": "Kindle",
+                    "label": "Kindle",
+                    "url": "https://io.eriktuck.com/base/Kindle"
+                }
+            },
+            {
+                "data": {
+                    "id": "persuasion architecture",
+                    "label": "persuasion architecture",
+                    "url": "https://io.eriktuck.com/base/persuasion+architecture"
+                }
+            },
+            {
+                "data": {
+                    "id": "coordinate reference system",
+                    "label": "coordinate reference system",
+                    "url": "https://io.eriktuck.com/base/coordinate+reference+system"
+                }
+            },
+            {
+                "data": {
+                    "id": "project organization for web",
+                    "label": "project organization for web",
+                    "url": "https://io.eriktuck.com/base/project+organization+for+web"
+                }
+            },
+            {
+                "data": {
+                    "id": "ordinal",
+                    "label": "ordinal",
+                    "url": "https://io.eriktuck.com/base/ordinal"
+                }
+            },
+            {
+                "data": {
+                    "id": "ratio scale",
+                    "label": "ratio scale",
+                    "url": "https://io.eriktuck.com/base/ratio+scale"
+                }
+            },
+            {
+                "data": {
+                    "id": "microservice architecture",
+                    "label": "microservice architecture",
+                    "url": "https://io.eriktuck.com/base/microservice+architecture"
+                }
+            },
+            {
+                "data": {
+                    "id": "documentation",
+                    "label": "documentation",
+                    "url": "https://io.eriktuck.com/base/documentation"
+                }
+            },
+            {
+                "data": {
+                    "id": "lightboard",
+                    "label": "lightboard",
+                    "url": "https://io.eriktuck.com/base/lightboard"
+                }
+            },
+            {
+                "data": {
+                    "id": "cool",
+                    "label": "cool",
+                    "url": "https://io.eriktuck.com/base/cool"
+                }
+            },
+            {
+                "data": {
+                    "id": "IDE",
+                    "label": "IDE",
+                    "url": "https://io.eriktuck.com/base/IDE"
+                }
+            },
+            {
+                "data": {
+                    "id": "Azure AI Studio",
+                    "label": "Azure AI Studio",
+                    "url": "https://io.eriktuck.com/base/Azure+AI+Studio"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture model",
+                    "label": "software architecture model",
+                    "url": "https://io.eriktuck.com/base/software+architecture+model"
+                }
+            },
+            {
+                "data": {
+                    "id": "interval scale",
+                    "label": "interval scale",
+                    "url": "https://io.eriktuck.com/base/interval+scale"
+                }
+            },
+            {
+                "data": {
+                    "id": "Claude Code",
+                    "label": "Claude Code",
+                    "url": "https://io.eriktuck.com/base/Claude+Code"
+                }
+            },
+            {
+                "data": {
+                    "id": "categorical",
+                    "label": "categorical",
+                    "url": "https://io.eriktuck.com/base/categorical"
+                }
+            },
+            {
+                "data": {
+                    "id": "APA style",
+                    "label": "APA style",
+                    "url": "https://io.eriktuck.com/base/APA+style"
+                }
+            },
+            {
+                "data": {
+                    "id": "disk",
+                    "label": "disk",
+                    "url": "https://io.eriktuck.com/base/disk"
+                }
+            },
+            {
+                "data": {
+                    "id": "data pipeline",
+                    "label": "data pipeline",
+                    "url": "https://io.eriktuck.com/base/data+pipeline"
+                }
+            },
+            {
+                "data": {
+                    "id": "options for deploying data-driven web apps",
+                    "label": "options for deploying data-driven web apps",
+                    "url": "https://io.eriktuck.com/base/options+for+deploying+data-driven+web+apps"
+                }
+            },
+            {
+                "data": {
+                    "id": "deep learning",
+                    "label": "deep learning",
+                    "url": "https://io.eriktuck.com/base/deep+learning"
+                }
+            },
+            {
+                "data": {
+                    "id": "include Bootstrap",
+                    "label": "include Bootstrap",
+                    "url": "https://io.eriktuck.com/base/include+Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "Internet",
+                    "label": "Internet",
+                    "url": "https://io.eriktuck.com/base/Internet"
+                }
+            },
+            {
+                "data": {
+                    "id": "npm",
+                    "label": "npm",
+                    "url": "https://io.eriktuck.com/base/npm"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 2",
+                    "label": "Time Tracker - part 2",
+                    "url": "https://io.eriktuck.com/guides/Time+Tracker+-+part+2"
+                }
+            },
+            {
+                "data": {
+                    "id": "show hidden files",
+                    "label": "show hidden files",
+                    "url": "https://io.eriktuck.com/base/show+hidden+files"
+                }
+            },
+            {
+                "data": {
+                    "id": "fair use",
+                    "label": "fair use",
+                    "url": "https://io.eriktuck.com/base/fair+use"
+                }
+            },
+            {
+                "data": {
+                    "id": "Tiago Forte",
+                    "label": "Tiago Forte",
+                    "url": "https://io.eriktuck.com/base/Tiago+Forte"
+                }
+            },
+            {
+                "data": {
+                    "id": "IFrame",
+                    "label": "IFrame",
+                    "url": "https://io.eriktuck.com/base/IFrame"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script",
+                    "label": "Google Apps Script",
+                    "url": "https://io.eriktuck.com/hubs/Google+Apps+Script"
+                }
+            },
+            {
+                "data": {
+                    "id": "Andy Matushak",
+                    "label": "Andy Matushak",
+                    "url": "https://io.eriktuck.com/base/Andy+Matushak"
+                }
+            },
+            {
+                "data": {
+                    "id": "event listener",
+                    "label": "event listener",
+                    "url": "https://io.eriktuck.com/base/event+listener"
+                }
+            },
+            {
+                "data": {
+                    "id": "Deploy a Streamlit App on Heroku tutorial",
+                    "label": "Deploy a Streamlit App on Heroku tutorial",
+                    "url": "https://io.eriktuck.com/guides/Deploy+a+Streamlit+App+on+Heroku+tutorial"
+                }
+            },
+            {
+                "data": {
+                    "id": "Personally Identifiable Information",
+                    "label": "Personally Identifiable Information",
+                    "url": "https://io.eriktuck.com/base/Personally+Identifiable+Information"
+                }
+            },
+            {
+                "data": {
+                    "id": "graphics processing unit",
+                    "label": "graphics processing unit",
+                    "url": "https://io.eriktuck.com/base/graphics+processing+unit"
+                }
+            },
+            {
+                "data": {
+                    "id": "non-repudiation",
+                    "label": "non-repudiation",
+                    "url": "https://io.eriktuck.com/base/non-repudiation"
+                }
+            },
+            {
+                "data": {
+                    "id": "oembed",
+                    "label": "oembed",
+                    "url": "https://io.eriktuck.com/base/oembed"
+                }
+            },
+            {
+                "data": {
+                    "id": "Dev.to",
+                    "label": "Dev.to",
+                    "url": "https://io.eriktuck.com/base/Dev.to"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line application",
+                    "label": "command line application",
+                    "url": "https://io.eriktuck.com/base/command+line+application"
+                }
+            },
+            {
+                "data": {
+                    "id": "url encoding",
+                    "label": "url encoding",
+                    "url": "https://io.eriktuck.com/base/url+encoding"
+                }
+            },
+            {
+                "data": {
+                    "id": "Snakemake",
+                    "label": "Snakemake",
+                    "url": "https://io.eriktuck.com/base/Snakemake"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hugo",
+                    "label": "Hugo",
+                    "url": "https://io.eriktuck.com/base/Hugo"
+                }
+            },
+            {
+                "data": {
+                    "id": "information architecture",
+                    "label": "information architecture",
+                    "url": "https://io.eriktuck.com/base/information+architecture"
+                }
+            },
+            {
+                "data": {
+                    "id": "dash",
+                    "label": "dash",
+                    "url": "https://io.eriktuck.com/base/dash"
+                }
+            },
+            {
+                "data": {
+                    "id": "complex number",
+                    "label": "complex number",
+                    "url": "https://io.eriktuck.com/base/complex+number"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 1",
+                    "label": "Time Tracker - part 1",
+                    "url": "https://io.eriktuck.com/guides/Time+Tracker+-+part+1"
+                }
+            },
+            {
+                "data": {
+                    "id": "David Allen",
+                    "label": "David Allen",
+                    "url": "https://io.eriktuck.com/base/David+Allen"
+                }
+            },
+            {
+                "data": {
+                    "id": "SDK",
+                    "label": "SDK",
+                    "url": "https://io.eriktuck.com/base/SDK"
+                }
+            },
+            {
+                "data": {
+                    "id": "environment.yml",
+                    "label": "environment.yml",
+                    "url": "https://io.eriktuck.com/base/environment.yml"
+                }
+            },
+            {
+                "data": {
+                    "id": "data mining",
+                    "label": "data mining",
+                    "url": "https://io.eriktuck.com/base/data+mining"
+                }
+            },
+            {
+                "data": {
+                    "id": "MiKTeX",
+                    "label": "MiKTeX",
+                    "url": "https://io.eriktuck.com/base/MiKTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "Earth Explorer",
+                    "label": "Earth Explorer",
+                    "url": "https://io.eriktuck.com/base/Earth+Explorer"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams and documentation as code",
+                    "label": "diagrams and documentation as code",
+                    "url": "https://io.eriktuck.com/base/diagrams+and+documentation+as+code"
+                }
+            },
+            {
+                "data": {
+                    "id": "documenting environments",
+                    "label": "documenting environments",
+                    "url": "https://io.eriktuck.com/base/documenting+environments"
+                }
+            },
+            {
+                "data": {
+                    "id": "Raindrop.io",
+                    "label": "Raindrop.io",
+                    "url": "https://io.eriktuck.com/base/Raindrop.io"
+                }
+            },
+            {
+                "data": {
+                    "id": "Mule Deer Expert Elicitation App",
+                    "label": "Mule Deer Expert Elicitation App",
+                    "url": "https://io.eriktuck.com/base/Mule+Deer+Expert+Elicitation+App"
+                }
+            },
+            {
+                "data": {
+                    "id": "Markdown",
+                    "label": "Markdown",
+                    "url": "https://io.eriktuck.com/base/Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "generative AI",
+                    "label": "generative AI",
+                    "url": "https://io.eriktuck.com/base/generative+AI"
+                }
+            },
+            {
+                "data": {
+                    "id": "my publishing process",
+                    "label": "my publishing process",
+                    "url": "https://io.eriktuck.com/base/my+publishing+process"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "id": "matplotlib style sheets-matplotlib-0",
+                    "source": "matplotlib style sheets",
+                    "target": "matplotlib"
+                }
+            },
+            {
+                "data": {
+                    "id": "GoDaddy-WHOIS domain lookup-0",
+                    "source": "GoDaddy",
+                    "target": "WHOIS domain lookup"
+                }
+            },
+            {
+                "data": {
+                    "id": "enable GPU or TPU in Kaggle-Kaggle-0",
+                    "source": "enable GPU or TPU in Kaggle",
+                    "target": "Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "enable GPU or TPU in Kaggle-graphics processing unit-0",
+                    "source": "enable GPU or TPU in Kaggle",
+                    "target": "graphics processing unit"
+                }
+            },
+            {
+                "data": {
+                    "id": "enable GPU or TPU in Kaggle-deep learning-0",
+                    "source": "enable GPU or TPU in Kaggle",
+                    "target": "deep learning"
+                }
+            },
+            {
+                "data": {
+                    "id": "nano-IDE-0",
+                    "source": "nano",
+                    "target": "IDE"
+                }
+            },
+            {
+                "data": {
+                    "id": "nano-vim-0",
+                    "source": "nano",
+                    "target": "vim"
+                }
+            },
+            {
+                "data": {
+                    "id": "Altair-Vega-lite-0",
+                    "source": "Altair",
+                    "target": "Vega-lite"
+                }
+            },
+            {
+                "data": {
+                    "id": "vim-IDE-0",
+                    "source": "vim",
+                    "target": "IDE"
+                }
+            },
+            {
+                "data": {
+                    "id": "vim-nano-0",
+                    "source": "vim",
+                    "target": "nano"
+                }
+            },
+            {
+                "data": {
+                    "id": "entity-relationship diagram-dbdiagram-0",
+                    "source": "entity-relationship diagram",
+                    "target": "dbdiagram"
+                }
+            },
+            {
+                "data": {
+                    "id": "Scrollama-Scrollytelling-0",
+                    "source": "Scrollama",
+                    "target": "Scrollytelling"
+                }
+            },
+            {
+                "data": {
+                    "id": "mathpix-LaTeX-0",
+                    "source": "mathpix",
+                    "target": "LaTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "mathpix-Markdown-0",
+                    "source": "mathpix",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "database management system-entity-relationship diagram-0",
+                    "source": "database management system",
+                    "target": "entity-relationship diagram"
+                }
+            },
+            {
+                "data": {
+                    "id": "infographic-generative AI-0",
+                    "source": "infographic",
+                    "target": "generative AI"
+                }
+            },
+            {
+                "data": {
+                    "id": "ASCII-encoding-0",
+                    "source": "ASCII",
+                    "target": "encoding"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker-Time Tracker - part 1-0",
+                    "source": "Time Tracker",
+                    "target": "Time Tracker - part 1"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature notes-book shelf-0",
+                    "source": "literature notes",
+                    "target": "book shelf"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature notes-Readwise Reader-0",
+                    "source": "literature notes",
+                    "target": "Readwise Reader"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature notes-Raindrop.io-0",
+                    "source": "literature notes",
+                    "target": "Raindrop.io"
+                }
+            },
+            {
+                "data": {
+                    "id": "literature notes-\ud83c\udf0e home-0",
+                    "source": "literature notes",
+                    "target": "\ud83c\udf0e home"
+                }
+            },
+            {
+                "data": {
+                    "id": "Docker-Windows Subsystem for Linux-0",
+                    "source": "Docker",
+                    "target": "Windows Subsystem for Linux"
+                }
+            },
+            {
+                "data": {
+                    "id": "Docker-requirements.txt-0",
+                    "source": "Docker",
+                    "target": "requirements.txt"
+                }
+            },
+            {
+                "data": {
+                    "id": "ShareX-Markdown-0",
+                    "source": "ShareX",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "pandoc-LaTeX-0",
+                    "source": "pandoc",
+                    "target": "LaTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "pandoc-MiKTeX-0",
+                    "source": "pandoc",
+                    "target": "MiKTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "Typora-Markdown-0",
+                    "source": "Typora",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "Typora-PATH-0",
+                    "source": "Typora",
+                    "target": "PATH"
+                }
+            },
+            {
+                "data": {
+                    "id": "Typora-ShareX-0",
+                    "source": "Typora",
+                    "target": "ShareX"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-command line application-0",
+                    "source": "c4builder",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-software architecture model-0",
+                    "source": "c4builder",
+                    "target": "software architecture model"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-Markdown-0",
+                    "source": "c4builder",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-c4-PlantUML-0",
+                    "source": "c4builder",
+                    "target": "c4-PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-c4-PlantUML-1",
+                    "source": "c4builder",
+                    "target": "c4-PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-c4-PlantUML-2",
+                    "source": "c4builder",
+                    "target": "c4-PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-c4-PlantUML-3",
+                    "source": "c4builder",
+                    "target": "c4-PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-Node.js-0",
+                    "source": "c4builder",
+                    "target": "Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-npm-0",
+                    "source": "c4builder",
+                    "target": "npm"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-Java-0",
+                    "source": "c4builder",
+                    "target": "Java"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4builder-GraphViz-0",
+                    "source": "c4builder",
+                    "target": "GraphViz"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Colab-enable GPU or TPU in Google Colab-0",
+                    "source": "Google Colab",
+                    "target": "enable GPU or TPU in Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Colab-mount Google Drive to Google Colab-0",
+                    "source": "Google Colab",
+                    "target": "mount Google Drive to Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "NAIP-Earth Explorer-0",
+                    "source": "NAIP",
+                    "target": "Earth Explorer"
+                }
+            },
+            {
+                "data": {
+                    "id": "database markup language-command line application-0",
+                    "source": "database markup language",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "database markup language-project organization for databases-0",
+                    "source": "database markup language",
+                    "target": "project organization for databases"
+                }
+            },
+            {
+                "data": {
+                    "id": "database markup language-diagrams and documentation as code-0",
+                    "source": "database markup language",
+                    "target": "diagrams and documentation as code"
+                }
+            },
+            {
+                "data": {
+                    "id": "mount Google Drive to Google Colab-Google Colab-0",
+                    "source": "mount Google Drive to Google Colab",
+                    "target": "Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "show file extensions-show hidden files-0",
+                    "source": "show file extensions",
+                    "target": "show hidden files"
+                }
+            },
+            {
+                "data": {
+                    "id": "DOMContentLoaded-DOM-0",
+                    "source": "DOMContentLoaded",
+                    "target": "DOM"
+                }
+            },
+            {
+                "data": {
+                    "id": "DOMContentLoaded-Google Apps Script-0",
+                    "source": "DOMContentLoaded",
+                    "target": "Google Apps Script"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 3-Time Tracker-0",
+                    "source": "Time Tracker - part 3",
+                    "target": "Time Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 3-Time Tracker - part 2-0",
+                    "source": "Time Tracker - part 3",
+                    "target": "Time Tracker - part 2"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 3-Time Tracker - part 2-1",
+                    "source": "Time Tracker - part 3",
+                    "target": "Time Tracker - part 2"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-Azure AI Studio-0",
+                    "source": "LLM engineering",
+                    "target": "Azure AI Studio"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-Windows PowerShell-0",
+                    "source": "LLM engineering",
+                    "target": "Windows PowerShell"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-environment file-0",
+                    "source": "LLM engineering",
+                    "target": "environment file"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-environment file-1",
+                    "source": "LLM engineering",
+                    "target": "environment file"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-nano-0",
+                    "source": "LLM engineering",
+                    "target": "nano"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-Docker-0",
+                    "source": "LLM engineering",
+                    "target": "Docker"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-Node.js-0",
+                    "source": "LLM engineering",
+                    "target": "Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-LLM engineering-0",
+                    "source": "LLM engineering",
+                    "target": "LLM engineering"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-LLM engineering-1",
+                    "source": "LLM engineering",
+                    "target": "LLM engineering"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-IDE-0",
+                    "source": "LLM engineering",
+                    "target": "IDE"
+                }
+            },
+            {
+                "data": {
+                    "id": "LLM engineering-Kaggle-0",
+                    "source": "LLM engineering",
+                    "target": "Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "GraphViz-diagrams-0",
+                    "source": "GraphViz",
+                    "target": "diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "GraphViz-c4builder-0",
+                    "source": "GraphViz",
+                    "target": "c4builder"
+                }
+            },
+            {
+                "data": {
+                    "id": "GraphViz-PATH-0",
+                    "source": "GraphViz",
+                    "target": "PATH"
+                }
+            },
+            {
+                "data": {
+                    "id": "PARA method-Tiago Forte-0",
+                    "source": "PARA method",
+                    "target": "Tiago Forte"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome-\ud83c\udf0e home-0",
+                    "source": "\ud83d\udc4b welcome",
+                    "target": "\ud83c\udf0e home"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome-data science-0",
+                    "source": "\ud83d\udc4b welcome",
+                    "target": "data science"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome-productivity-0",
+                    "source": "\ud83d\udc4b welcome",
+                    "target": "productivity"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome-book shelf-0",
+                    "source": "\ud83d\udc4b welcome",
+                    "target": "book shelf"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83d\udc4b welcome-literature-0",
+                    "source": "\ud83d\udc4b welcome",
+                    "target": "literature"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams-entity-relationship diagram-0",
+                    "source": "diagrams",
+                    "target": "entity-relationship diagram"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams-Markdown-0",
+                    "source": "diagrams",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams-interactive report-0",
+                    "source": "diagrams",
+                    "target": "interactive report"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams-mkdocs-0",
+                    "source": "diagrams",
+                    "target": "mkdocs"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams-IFrame-0",
+                    "source": "diagrams",
+                    "target": "IFrame"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line interface-shell-0",
+                    "source": "command line interface",
+                    "target": "shell"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line interface-shell-1",
+                    "source": "command line interface",
+                    "target": "shell"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line interface-command line application-0",
+                    "source": "command line interface",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-software architecture diagrams-0",
+                    "source": "c4-PlantUML",
+                    "target": "software architecture diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-PlantUML-0",
+                    "source": "c4-PlantUML",
+                    "target": "PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-PlantUML-1",
+                    "source": "c4-PlantUML",
+                    "target": "PlantUML"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-Markdown-0",
+                    "source": "c4-PlantUML",
+                    "target": "Markdown"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-c4builder-0",
+                    "source": "c4-PlantUML",
+                    "target": "c4builder"
+                }
+            },
+            {
+                "data": {
+                    "id": "c4-PlantUML-command line application-0",
+                    "source": "c4-PlantUML",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "Leaflet-Develop a web app with Google Apps Script and Bootstrap-0",
+                    "source": "Leaflet",
+                    "target": "Develop a web app with Google Apps Script and Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "level of measurement-categorical-0",
+                    "source": "level of measurement",
+                    "target": "categorical"
+                }
+            },
+            {
+                "data": {
+                    "id": "level of measurement-ordinal-0",
+                    "source": "level of measurement",
+                    "target": "ordinal"
+                }
+            },
+            {
+                "data": {
+                    "id": "level of measurement-interval scale-0",
+                    "source": "level of measurement",
+                    "target": "interval scale"
+                }
+            },
+            {
+                "data": {
+                    "id": "level of measurement-ratio scale-0",
+                    "source": "level of measurement",
+                    "target": "ratio scale"
+                }
+            },
+            {
+                "data": {
+                    "id": "launchers-Todoist-0",
+                    "source": "launchers",
+                    "target": "Todoist"
+                }
+            },
+            {
+                "data": {
+                    "id": "launchers-Notion-0",
+                    "source": "launchers",
+                    "target": "Notion"
+                }
+            },
+            {
+                "data": {
+                    "id": "launchers-Arc-0",
+                    "source": "launchers",
+                    "target": "Arc"
+                }
+            },
+            {
+                "data": {
+                    "id": "Readwise Reader-Zotero-0",
+                    "source": "Readwise Reader",
+                    "target": "Zotero"
+                }
+            },
+            {
+                "data": {
+                    "id": "simulation-simulated data-0",
+                    "source": "simulation",
+                    "target": "simulated data"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-How to set up your laptop for data science-0",
+                    "source": "computer setup",
+                    "target": "How to set up your laptop for data science"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-ShareX-0",
+                    "source": "computer setup",
+                    "target": "ShareX"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-Typora-0",
+                    "source": "computer setup",
+                    "target": "Typora"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-Todoist-0",
+                    "source": "computer setup",
+                    "target": "Todoist"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-Arc-0",
+                    "source": "computer setup",
+                    "target": "Arc"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-Raindrop.io-0",
+                    "source": "computer setup",
+                    "target": "Raindrop.io"
+                }
+            },
+            {
+                "data": {
+                    "id": "computer setup-Readwise Reader-0",
+                    "source": "computer setup",
+                    "target": "Readwise Reader"
+                }
+            },
+            {
+                "data": {
+                    "id": "Dr. Nicole LePera-Holistic Psychology-0",
+                    "source": "Dr. Nicole LePera",
+                    "target": "Holistic Psychology"
+                }
+            },
+            {
+                "data": {
+                    "id": "Guatemala Data Hub-Atlas-0",
+                    "source": "Guatemala Data Hub",
+                    "target": "Atlas"
+                }
+            },
+            {
+                "data": {
+                    "id": "SQLite-command line application-0",
+                    "source": "SQLite",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "SQLite-project organization for databases-0",
+                    "source": "SQLite",
+                    "target": "project organization for databases"
+                }
+            },
+            {
+                "data": {
+                    "id": "PlantUML-diagrams-0",
+                    "source": "PlantUML",
+                    "target": "diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "PlantUML-Java-0",
+                    "source": "PlantUML",
+                    "target": "Java"
+                }
+            },
+            {
+                "data": {
+                    "id": "PlantUML-GraphViz-0",
+                    "source": "PlantUML",
+                    "target": "GraphViz"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83c\udf0e home-How to set up your laptop for data science-0",
+                    "source": "\ud83c\udf0e home",
+                    "target": "How to set up your laptop for data science"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83c\udf0e home-Time Tracker-0",
+                    "source": "\ud83c\udf0e home",
+                    "target": "Time Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83c\udf0e home-Develop a web app with Google Apps Script and Bootstrap-0",
+                    "source": "\ud83c\udf0e home",
+                    "target": "Develop a web app with Google Apps Script and Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "\ud83c\udf0e home-Develop a geospatial web application using Google Apps Script and Leaflet-0",
+                    "source": "\ud83c\udf0e home",
+                    "target": "Develop a geospatial web application using Google Apps Script and Leaflet"
+                }
+            },
+            {
+                "data": {
+                    "id": "convert PDF to Kindle format-send PDFs to Kindle-0",
+                    "source": "convert PDF to Kindle format",
+                    "target": "send PDFs to Kindle"
+                }
+            },
+            {
+                "data": {
+                    "id": "Develop a geospatial web application using Google Apps Script and Leaflet-Develop a web app with Google Apps Script and Bootstrap-0",
+                    "source": "Develop a geospatial web application using Google Apps Script and Leaflet",
+                    "target": "Develop a web app with Google Apps Script and Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "data-driven web app-options for deploying data-driven web apps-0",
+                    "source": "data-driven web app",
+                    "target": "options for deploying data-driven web apps"
+                }
+            },
+            {
+                "data": {
+                    "id": "mkdocs-command line application-0",
+                    "source": "mkdocs",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs-database markup language-0",
+                    "source": "dbdocs",
+                    "target": "database markup language"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs-database markup language-1",
+                    "source": "dbdocs",
+                    "target": "database markup language"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs-diagrams and documentation as code-0",
+                    "source": "dbdocs",
+                    "target": "diagrams and documentation as code"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs-Node.js-0",
+                    "source": "dbdocs",
+                    "target": "Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "dbdocs-npm-0",
+                    "source": "dbdocs",
+                    "target": "npm"
+                }
+            },
+            {
+                "data": {
+                    "id": "Node.js-npm-0",
+                    "source": "Node.js",
+                    "target": "npm"
+                }
+            },
+            {
+                "data": {
+                    "id": "environment file-nano-0",
+                    "source": "environment file",
+                    "target": "nano"
+                }
+            },
+            {
+                "data": {
+                    "id": "spinner-Bootstrap-0",
+                    "source": "spinner",
+                    "target": "Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "IP address-Internet-0",
+                    "source": "IP address",
+                    "target": "Internet"
+                }
+            },
+            {
+                "data": {
+                    "id": "Holistic Psychology-Dr. Nicole LePera-0",
+                    "source": "Holistic Psychology",
+                    "target": "Dr. Nicole LePera"
+                }
+            },
+            {
+                "data": {
+                    "id": "LaTeX-MiKTeX-0",
+                    "source": "LaTeX",
+                    "target": "MiKTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "Scrollytelling-Mapbox Scrollytelling-0",
+                    "source": "Scrollytelling",
+                    "target": "Mapbox Scrollytelling"
+                }
+            },
+            {
+                "data": {
+                    "id": "Scrollytelling-Scrollama-0",
+                    "source": "Scrollytelling",
+                    "target": "Scrollama"
+                }
+            },
+            {
+                "data": {
+                    "id": "Twitch-Kaggle-0",
+                    "source": "Twitch",
+                    "target": "Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture diagrams-diagrams-0",
+                    "source": "software architecture diagrams",
+                    "target": "diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture diagrams-software architecture model-0",
+                    "source": "software architecture diagrams",
+                    "target": "software architecture model"
+                }
+            },
+            {
+                "data": {
+                    "id": "WordPress-GoDaddy-0",
+                    "source": "WordPress",
+                    "target": "GoDaddy"
+                }
+            },
+            {
+                "data": {
+                    "id": "MathJax-LaTeX-0",
+                    "source": "MathJax",
+                    "target": "LaTeX"
+                }
+            },
+            {
+                "data": {
+                    "id": "data science competitions-Kaggle-0",
+                    "source": "data science competitions",
+                    "target": "Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "DuckDB-disk-0",
+                    "source": "DuckDB",
+                    "target": "disk"
+                }
+            },
+            {
+                "data": {
+                    "id": "DuckDB-command line application-0",
+                    "source": "DuckDB",
+                    "target": "command line application"
+                }
+            },
+            {
+                "data": {
+                    "id": "data reidentification-Personally Identifiable Information-0",
+                    "source": "data reidentification",
+                    "target": "Personally Identifiable Information"
+                }
+            },
+            {
+                "data": {
+                    "id": "matplotlib-matplotlib style sheets-0",
+                    "source": "matplotlib",
+                    "target": "matplotlib style sheets"
+                }
+            },
+            {
+                "data": {
+                    "id": "coordinate reference system-geopandas-0",
+                    "source": "coordinate reference system",
+                    "target": "geopandas"
+                }
+            },
+            {
+                "data": {
+                    "id": "IDE-Claude Code-0",
+                    "source": "IDE",
+                    "target": "Claude Code"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture model-software architecture diagrams-0",
+                    "source": "software architecture model",
+                    "target": "software architecture diagrams"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture model-c4builder-0",
+                    "source": "software architecture model",
+                    "target": "c4builder"
+                }
+            },
+            {
+                "data": {
+                    "id": "software architecture model-diagrams and documentation as code-0",
+                    "source": "software architecture model",
+                    "target": "diagrams and documentation as code"
+                }
+            },
+            {
+                "data": {
+                    "id": "interval scale-ratio scale-0",
+                    "source": "interval scale",
+                    "target": "ratio scale"
+                }
+            },
+            {
+                "data": {
+                    "id": "Claude Code-command line interface-0",
+                    "source": "Claude Code",
+                    "target": "command line interface"
+                }
+            },
+            {
+                "data": {
+                    "id": "Claude Code-IDE-0",
+                    "source": "Claude Code",
+                    "target": "IDE"
+                }
+            },
+            {
+                "data": {
+                    "id": "Claude Code-Windows Subsystem for Linux-0",
+                    "source": "Claude Code",
+                    "target": "Windows Subsystem for Linux"
+                }
+            },
+            {
+                "data": {
+                    "id": "options for deploying data-driven web apps-PythonAnywhere-0",
+                    "source": "options for deploying data-driven web apps",
+                    "target": "PythonAnywhere"
+                }
+            },
+            {
+                "data": {
+                    "id": "deep learning-deep learning-0",
+                    "source": "deep learning",
+                    "target": "deep learning"
+                }
+            },
+            {
+                "data": {
+                    "id": "deep learning-graphics processing unit-0",
+                    "source": "deep learning",
+                    "target": "graphics processing unit"
+                }
+            },
+            {
+                "data": {
+                    "id": "deep learning-enable GPU or TPU in Google Colab-0",
+                    "source": "deep learning",
+                    "target": "enable GPU or TPU in Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "include Bootstrap-Bootstrap-0",
+                    "source": "include Bootstrap",
+                    "target": "Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "npm-Node.js-0",
+                    "source": "npm",
+                    "target": "Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "npm-Node.js-1",
+                    "source": "npm",
+                    "target": "Node.js"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 2-Time Tracker-0",
+                    "source": "Time Tracker - part 2",
+                    "target": "Time Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 2-Time Tracker - part 1-0",
+                    "source": "Time Tracker - part 2",
+                    "target": "Time Tracker - part 1"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 2-Time Tracker - part 1-1",
+                    "source": "Time Tracker - part 2",
+                    "target": "Time Tracker - part 1"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 2-Time Tracker - part 3-0",
+                    "source": "Time Tracker - part 2",
+                    "target": "Time Tracker - part 3"
+                }
+            },
+            {
+                "data": {
+                    "id": "show hidden files-show hidden files-0",
+                    "source": "show hidden files",
+                    "target": "show hidden files"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-data-driven web app-0",
+                    "source": "Google Apps Script",
+                    "target": "data-driven web app"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-options for deploying data-driven web apps-0",
+                    "source": "Google Apps Script",
+                    "target": "options for deploying data-driven web apps"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Google Colab-0",
+                    "source": "Google Apps Script",
+                    "target": "Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Guatemala Data Hub-0",
+                    "source": "Google Apps Script",
+                    "target": "Guatemala Data Hub"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Atlas-0",
+                    "source": "Google Apps Script",
+                    "target": "Atlas"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Mule Deer Expert Elicitation App-0",
+                    "source": "Google Apps Script",
+                    "target": "Mule Deer Expert Elicitation App"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Pre-obligation Checklist-0",
+                    "source": "Google Apps Script",
+                    "target": "Pre-obligation Checklist"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Time Tracker-0",
+                    "source": "Google Apps Script",
+                    "target": "Time Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Develop a web app with Google Apps Script and Bootstrap-0",
+                    "source": "Google Apps Script",
+                    "target": "Develop a web app with Google Apps Script and Bootstrap"
+                }
+            },
+            {
+                "data": {
+                    "id": "Google Apps Script-Develop a geospatial web application using Google Apps Script and Leaflet-0",
+                    "source": "Google Apps Script",
+                    "target": "Develop a geospatial web application using Google Apps Script and Leaflet"
+                }
+            },
+            {
+                "data": {
+                    "id": "event listener-DOMContentLoaded-0",
+                    "source": "event listener",
+                    "target": "DOMContentLoaded"
+                }
+            },
+            {
+                "data": {
+                    "id": "Personally Identifiable Information-data reidentification-0",
+                    "source": "Personally Identifiable Information",
+                    "target": "data reidentification"
+                }
+            },
+            {
+                "data": {
+                    "id": "graphics processing unit-deep learning-0",
+                    "source": "graphics processing unit",
+                    "target": "deep learning"
+                }
+            },
+            {
+                "data": {
+                    "id": "graphics processing unit-enable GPU or TPU in Google Colab-0",
+                    "source": "graphics processing unit",
+                    "target": "enable GPU or TPU in Google Colab"
+                }
+            },
+            {
+                "data": {
+                    "id": "graphics processing unit-enable GPU or TPU in Kaggle-0",
+                    "source": "graphics processing unit",
+                    "target": "enable GPU or TPU in Kaggle"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line application-shell-0",
+                    "source": "command line application",
+                    "target": "shell"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line application-command line interface-0",
+                    "source": "command line application",
+                    "target": "command line interface"
+                }
+            },
+            {
+                "data": {
+                    "id": "command line application-add application to context menu-0",
+                    "source": "command line application",
+                    "target": "add application to context menu"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hugo-PATH-0",
+                    "source": "Hugo",
+                    "target": "PATH"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hugo-command line interface-0",
+                    "source": "Hugo",
+                    "target": "command line interface"
+                }
+            },
+            {
+                "data": {
+                    "id": "Hugo-MathJax-0",
+                    "source": "Hugo",
+                    "target": "MathJax"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 1-Time Tracker-0",
+                    "source": "Time Tracker - part 1",
+                    "target": "Time Tracker"
+                }
+            },
+            {
+                "data": {
+                    "id": "Time Tracker - part 1-Time Tracker - part 2-0",
+                    "source": "Time Tracker - part 1",
+                    "target": "Time Tracker - part 2"
+                }
+            },
+            {
+                "data": {
+                    "id": "diagrams and documentation as code-c4builder-0",
+                    "source": "diagrams and documentation as code",
+                    "target": "c4builder"
+                }
+            },
+            {
+                "data": {
+                    "id": "documenting environments-environment.yml-0",
+                    "source": "documenting environments",
+                    "target": "environment.yml"
+                }
+            },
+            {
+                "data": {
+                    "id": "documenting environments-requirements.txt-0",
+                    "source": "documenting environments",
+                    "target": "requirements.txt"
+                }
+            },
+            {
+                "data": {
+                    "id": "Mule Deer Expert Elicitation App-data-driven web app-0",
+                    "source": "Mule Deer Expert Elicitation App",
+                    "target": "data-driven web app"
+                }
+            },
+            {
+                "data": {
+                    "id": "my publishing process-book shelf-0",
+                    "source": "my publishing process",
+                    "target": "book shelf"
+                }
+            }
+        ]
+    }
+}
