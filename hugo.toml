@@ -2,6 +2,7 @@ baseURL = "https://eriktuck.com/"
 languageCode = "en-us"
 title = "Erik Tuck - Portfolio"
 theme = "base-theme"
+enableGitInfo = true
 
 [[module.imports]]
   path = "hugo-admonitions"
