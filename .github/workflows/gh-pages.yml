@@ -27,7 +27,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
-          keep_files: true  # Keep the CNAME file
+          keep_files: true
           cname: eriktuck.com
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
