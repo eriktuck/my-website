@@ -5,12 +5,14 @@ draft: false
 ---
 
 Hi 👋, I'm Erik. I'm on a mission to help aspiring data scientists in the fields of conservation, social impact and global development.
+
 ## education
 I studied environmental science with a focus on economics at Colorado State University. I was interested in how economic incentives could catalyze better stewardship of the environment.
 
 While at CSU I wrote a weekly column for the student newspaper, the Collegian. You can read more on my previous blog [the 651st word](https://the651.wordpress.com/2009/09/30/experiencing-northern-colorado-at-harvest). I was also a fellow with the Center for Collaborative Conservation and had the chance to work on their Colorado Conservation Exchange which (some years later) I helped launch as the [Peaks to People Water Fund](https://peakstopeople.org/).
 
 I returned to school in 2024 to earn a Masters in Data Science from the University of Colorado, Boulder. I have also earned the Earth Lab's Earth Data Analytics Professional Certificate.
+
 ## career
 I spent the first few years of my career working on-the-ground to protect and restore natural areas in Colorado. I worked directly in conservation and mitigation banks--areas of protected habitat intended to offset losses in advance of unavoidable impacts.  
 
