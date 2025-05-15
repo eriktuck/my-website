@@ -1,25 +1,15 @@
-name: GitHub Pages
+name: Deploy Hugo Site to gh-pages
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
-
-# Set the required permissions
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
@@ -30,13 +20,14 @@ jobs:
           hugo-version: '0.147.0'
           extended: true
 
-      - name: Build
+      - name: Build Hugo site
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          keep_files: true
-          cname: eriktuck.com
+          branch: gh-pages
+          force_orphan: true
+          cname: eriktuck.com 
