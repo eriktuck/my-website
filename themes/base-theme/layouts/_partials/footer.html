@@ -3,7 +3,10 @@
     <div class="container">
         <div class="footer-content">
             <div class="profile-photo">
-                <img src="{{ "images/erik_square_compressed.png" | relURL }}" alt="Erik Tuck" class="profile-img">
+                {{ $image := resources.Get "images/erik_square_compressed.png" }}
+                {{ if $image }}
+                    <img src="{{ $image.Permalink }}" alt="My Image" class="profile-img">
+                {{ end }}
             </div>
             <div class="footer-right">
                 <div class="social-links">
