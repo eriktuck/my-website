@@ -3,7 +3,6 @@ title: "About Me"
 date: 2025-04-23T09:00:00-05:00
 draft: false
 ---
-
 Hi 👋, I'm Erik. I'm on a mission to help aspiring data scientists in the fields of conservation, social impact and global development.
 
 ## education

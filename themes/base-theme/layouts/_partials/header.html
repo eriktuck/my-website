@@ -1,9 +1,16 @@
 <div class="fixed-header">
     <div class="container">
-        <nav>
-            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-        </nav>
-        {{ partial "theme-toggle.html" . }}
+        <div class="header-content">
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+            </nav>
+            {{ partial "theme-toggle.html" . }}
+        </div>
     </div>
 </div>
 

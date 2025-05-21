@@ -5,7 +5,7 @@ draft: false
 summary: "An AI-powered classifier for financial transactions"
 tags: ["Deep Learning", "Python"]
 image: https://storage.googleapis.com/ei-dev-assets/assets/dragonfly-wing-gpt.png
-imageCredit: "Image created by author using ChatGPT"
+imageCredit: "Image created by author using GPT-4"
 github: https://github.com/eriktuck/txn-classifier
 liveDemo: https://colab.research.google.com/drive/1aBjRTEzCOstnZ6Pyae6QRgce-VLhsZsu#scrollTo=UCsEB0tO9ynK
 ---

@@ -465,4 +465,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  
+// Simple hamburger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav-menu');
+    
+    if (!hamburger || !nav) return;
+    
+    // Add click event to hamburger
+    hamburger.addEventListener('click', function(e) {
+        
+        // Toggle both classes to handle any case
+        nav.classList.toggle('is-active');
+        nav.classList.toggle('active');
+        
+        // Update aria-expanded
+        const isExpanded = nav.classList.contains('is-active') || nav.classList.contains('active');
+        this.setAttribute('aria-expanded', isExpanded);
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+        if (window.innerWidth > 768) return;
+        if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+            nav.classList.remove('is-active');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+    });
+});

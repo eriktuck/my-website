@@ -5,7 +5,7 @@ title: 'Using NLP with Twitter to monitor natural disasters'
 summary: "When disaster strikes, real-time social media monitoring can be a powerful tool for early warning and response. This project analyzes Twitter data to identify posts that describe actual natural disasters, which could potentially serve as an early warning system for governmental and humanitarian organizations."
 tags: ["NLP", "spaCy", "Deep Learning"]
 image: "https://storage.googleapis.com/ei-dev-assets/assets/disaster-tweets-post.png"
-imageCredit: "Image created by author using ChatGPT"
+imageCredit: "Image created by author using GPT-4"
 github: "https://github.com/eriktuck/nlp-disaster-tweets"
 liveDemo: "https://www.kaggle.com/code/erikanderson1/nlp-to-monitor-twitter-for-natural-disasters"
 ---

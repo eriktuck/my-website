@@ -5,7 +5,7 @@ draft: false
 summary: "A comparative analysis of unsupervised and supervised machine learning techniques for classifying news articles into predefined categories"
 tags: ["Machine Learning", "NLP", "spaCy"]
 image: https://storage.googleapis.com/ei-dev-assets/assets/river-delta-gpt.png
-imageCredit: "Image created by author with ChatGPT"
+imageCredit: "Image created by author using GPT-4"
 github: https://github.com/eriktuck/news-topic-modelling-nmf
 liveDemo: https://www.kaggle.com/code/erikanderson1/bbc-news-classification-using-matrix-factorization?scriptVersionId=233863373
 ---

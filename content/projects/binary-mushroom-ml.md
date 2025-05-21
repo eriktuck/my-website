@@ -5,7 +5,7 @@ draft: false
 summary: "Using supervised machine learning techniques to classify mushrooms as either poisonous or edible, emphasizing the importance of model evaluation metrics."
 tags: ["Machine Learning"]
 image: https://storage.googleapis.com/ei-dev-assets/assets/mushroom-gills-gpt.png
-imageCredit: "Image created by author using ChatGPT"
+imageCredit: "Image created by author using GPT-4"
 github: https://github.com/eriktuck/death-cap-ml
 liveDemo: https://github.com/eriktuck/death-cap-ml/blob/main/kaggle_data.ipynb
 ---
