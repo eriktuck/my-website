@@ -30,7 +30,7 @@ ChatGPT recommended two options: Hugo or Jekyll. After doing a bit of my own res
 I was ready to be amazed. I poured myself a coffee and opened Claude Code. My goal was to see how much Claude could do on its own.
 
 > [!NOTE]
-> See my previous post [The definitive guide to installing Claude Code on Windows](https://eriktuck.com/the-definitive-guide-to-installing-claude-code-on-windows) if you want to try Claude Code yourself. 
+> See my previous post [The definitive guide to installing Claude Code on Windows](https://eriktuck.com/blog/the-definitive-guide-to-installing-claude-code-on-windows) if you want to try Claude Code yourself. 
 
 Following the Anthropic guide to [Claude Code best practices](https://www.anthropic.com/engineering/claude-code-best-practices), I started by asking Claude to create a `CLAUDE.md` file with instructions for itself, providing the context
 - you're creating a portfolio

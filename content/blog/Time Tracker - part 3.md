@@ -3,15 +3,17 @@ title: "Use the Plotly JavaScript library to create data visualizations (part 3 
 date: 2024-08-20T10:00:00-05:00
 draft: false
 summary: "Extend Google Sheets to create your own custom tools"
-tags: ["Google Apps Script", "Tutorial"]
+tags: 
+  - Google Apps Script
+  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_HAOBhvqkIt.png
 image-credit: Screen capture by author
 featured: false
 ---
 
-In this third and final part of the [Time Tracker](https://eriktuck.com/time-tracker) tutorial, we will use the [Plotly JavaScript library](https://plotly.com/javascript/) to visualize how we spend our time. You'll get experience with the [App Script HTML Service](https://plotly.com/javascript/getting-started/), learn how to leverage third-party libraries, and the discover the basics of how to use Plotly to create data visualizations.
+In this third and final part of the [Time Tracker](https://eriktuck.com/blog/time-tracker) tutorial, we will use the [Plotly JavaScript library](https://plotly.com/javascript/) to visualize how we spend our time. You'll get experience with the [App Script HTML Service](https://plotly.com/javascript/getting-started/), learn how to leverage third-party libraries, and the discover the basics of how to use Plotly to create data visualizations.
 
-If you haven't already, complete [Time Tracker - part 2](https://eriktuck.com/time-tracker---part-2) or jump in by copying the output of that tutorial [here](https://docs.google.com/spreadsheets/d/1oRAuKNwlFVG0-CSmHCuL4o0OoeWTyBP8Z3tUcddBMIg/template/preview) (please click the **USE TEMPLATE** button to make a copy into your own Google Drive).
+If you haven't already, complete [Time Tracker - part 2](https://eriktuck.com/blog/time-tracker---part-2) or jump in by copying the output of that tutorial [here](https://docs.google.com/spreadsheets/d/1oRAuKNwlFVG0-CSmHCuL4o0OoeWTyBP8Z3tUcddBMIg/template/preview) (please click the **USE TEMPLATE** button to make a copy into your own Google Drive).
 ## step 1. create index HTML file
 We'll create a new HTML file in our script project to display the chart within a dialog box.
 - In the left sidebar, click the plus icon to create a new file and select the option "HTML". Name this file "index" (the final filename should be `index.html`, Apps Script will automatically append `.html` for you). 
@@ -64,7 +66,7 @@ function onOpen() {
 - Launch the dialog box *TRACKER > Visualize Data*.
 
 > [!NOTE] 
-> You may need to authorize Apps Script again, even if you did in part 2 of this tutorial series. Go ahead and re-authorize Apps Script and then repeat the last step to launch the dialog box. For more detail on authorization of Apps Script, see [Time Tracker - part 2](https://eriktuck.com/time-tracker---part-2).
+> You may need to authorize Apps Script again, even if you did in part 2 of this tutorial series. Go ahead and re-authorize Apps Script and then repeat the last step to launch the dialog box. For more detail on authorization of Apps Script, see [Time Tracker - part 2](https://eriktuck.com/blog/time-tracker---part-2).
 
 A dialog box should pop up with the phrase "Hello world". It's not much, but it's a start!
 ## step 2. load Plotly

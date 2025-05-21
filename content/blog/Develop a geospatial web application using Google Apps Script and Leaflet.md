@@ -3,11 +3,14 @@ title: "Develop a geospatial web application using Google Apps Script and Leafle
 date: 2024-12-30T10:00:00-05:00
 draft: false
 summary: "The fastest way to share maps and geospatial data with stakeholders"
-tags: ["Google Apps Script", "Leaflet"]
+tags:
+  - Google Apps Script
+  - Leaflet
+  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/chrome_DW6GbdGqyH.gif
-image-credit: GIF by author
+image-credit: "GIF by author"
 ---
-After completing this tutorial, you will know how to set up a web application that creates map-based data visualization using the library [Leaflet](https://leafletjs.com/examples/quick-start/) and deployed with Google Apps Script. Consider completing the [Develop a web app with Google Apps Script and Bootstrap](https://eriktuck.com/develop-a-web-app-with-google-apps-script-and-bootstrap) tutorial first to familiarize yourself with the Google Apps Script environment.
+After completing this tutorial, you will know how to set up a web application that creates map-based data visualization using the library [Leaflet](https://leafletjs.com/examples/quick-start/) and deployed with Google Apps Script. Consider completing the [Develop a web app with Google Apps Script and Bootstrap](https://eriktuck.com/blog/develop-a-web-app-with-google-apps-script-and-bootstrap) tutorial first to familiarize yourself with the Google Apps Script environment.
 
 Check out the USAID/Guatemala Data Hub's [Map Viewer](https://sites.google.com/usaid.gov/guatemaladatahub/map-viewer) application to see how this app can look when deployed.
 

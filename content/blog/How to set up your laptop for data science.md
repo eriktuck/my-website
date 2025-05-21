@@ -1,9 +1,11 @@
 ---
-title: "How to set up your laptop for data science in 2025 (Windows edition)"
+title: How to set up your laptop for data science in 2025 (Windows edition)
 date: 2025-02-26T10:00:00-05:00
 draft: false
-summary: "Install Python with miniforge3 and mamba"
-tags: ["Python", "Tutorial"]
+summary: Install Python with miniforge3 and mamba
+tags:
+  - Python
+  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/1_7tdU3bdEW3brjdvAKorVMQ.webp
 image-credit: Made by author with ChatGPT
 ---

@@ -3,16 +3,18 @@ title: "Use Google Apps Script to automate key processes (part 2 of 3)"
 date: 2024-08-20T10:00:00-05:00
 draft: false
 summary: "Extend Google Sheets to create your own custom tools"
-tags: ["Google Apps Script", "Tutorial"]
+tags: 
+  - Google Apps Script
+  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/0__lHyEfrVvZtSxMZR.webp
 image-credit: Screen capture by author
 featured: false
 ---
-In part 2 of the [Time Tracker](https://eriktuck.com/time-tracker) tutorial, we'll use Google Apps Script to automate the process of logging the data at the end of each week and clearing out the data entry form for the next week. 
+In part 2 of the [Time Tracker](https://eriktuck.com/blog/time-tracker) tutorial, we'll use Google Apps Script to automate the process of logging the data at the end of each week and clearing out the data entry form for the next week. 
 
 ![img](https://storage.googleapis.com/ei-dev-assets/assets/0__lHyEfrVvZtSxMZR.webp)
 
-If you haven't already, complete [Time Tracker - part 1](https://eriktuck.com/time-tracker---part-1) or jump in by copying the output of that tutorial [here](https://docs.google.com/spreadsheets/d/1tUwRvQpkjJOs3F4deWPFyR9uvGd2FyBagJQufUTf790/template/preview) (please click the **USE TEMPLATE** button to make a copy into your own Google Drive).
+If you haven't already, complete [Time Tracker - part 1](https://eriktuck.com/blog/time-tracker---part-1) or jump in by copying the output of that tutorial [here](https://docs.google.com/spreadsheets/d/1tUwRvQpkjJOs3F4deWPFyR9uvGd2FyBagJQufUTf790/template/preview) (please click the **USE TEMPLATE** button to make a copy into your own Google Drive).
 
 Apps Script is a flavor of JavaScript that provides access to the Google API (which allows you to interact with Google products like Google Sheets). If you're new to Apps Script or JavaScript, don't worry. This will be a gentle introduction. After this tutorial, you'll be able to create custom menus in Google Sheets, read data from a spreadsheet, and write it to another spreadsheet.
 ## step 1. open the Google Apps Script extension
@@ -74,7 +76,7 @@ You should see a dialog box like the one shown below. If you click No, another b
 
 ![confirmation dialog box](https://storage.googleapis.com/ei-dev-assets/assets/Arc_a8LFf0EOUV.png)
 ## step 4. write function to clear entries
-Now let's write the function that will clear the entries. We'll use a bit of a trick to make our lives easier. We're going to clear the content of any cell that uses the background color we selected for data entry cells (see step 1 in [Time Tracker - part 1](https://eriktuck.com/time-tracker---part-1)). This will save us from having to explicitly define all of the data entry ranges. It will also allow you to use this same code in any other project you want to delete specific cells. 
+Now let's write the function that will clear the entries. We'll use a bit of a trick to make our lives easier. We're going to clear the content of any cell that uses the background color we selected for data entry cells (see step 1 in [Time Tracker - part 1](https://eriktuck.com/blog/time-tracker---part-1)). This will save us from having to explicitly define all of the data entry ranges. It will also allow you to use this same code in any other project you want to delete specific cells. 
 
 - Navigate to the Apps Script code editor.
 - Below the existing code, input the following:
@@ -256,4 +258,4 @@ You should now see that **Tracker** and **current_data** are empty, **past_data*
 
 You can access a copy of the Time Tracker based on the tutorials so far [here](https://docs.google.com/spreadsheets/d/1oRAuKNwlFVG0-CSmHCuL4o0OoeWTyBP8Z3tUcddBMIg/template/preview). Please click the **USE TEMPLATE** button to make a copy into your own Google Drive.
 
-We can use the data in the sheet **all_data** to analyze how we spend our time and create data visualizations, which we'll do in [Time Tracker - part 3](https://eriktuck.com/time-tracker---part-3).
+We can use the data in the sheet **all_data** to analyze how we spend our time and create data visualizations, which we'll do in [Time Tracker - part 3](https://eriktuck.com/blog/time-tracker---part-3).

@@ -3,7 +3,8 @@ title: "1 is 1 in Python"
 date: 2025-03-13T10:00:00-05:00
 draft: false
 summary: "A case study on the importance of a hacker mindset for new coders"
-tags: ["Python"]
+tags: 
+  - Python
 image: https://storage.googleapis.com/ei-dev-assets/assets/photo-1586776977607-310e9c725c37.avif
 image-credit: Photo by [Ken Suarez](https://unsplash.com/@kensuarez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-and-white-computer-keyboard-4IxPVkFGJGI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 ---

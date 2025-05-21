@@ -3,13 +3,12 @@ title: "Build a time tracking app with Google Apps Script and Plotly"
 date: 2024-08-20T10:00:00-05:00
 draft: false
 summary: "Extend Google Sheets to create your own custom tools"
-tags: ["Google Apps Script", "Tutorial"]
-image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_QOGNMtWkfq.png
-image-credit: Screen capture by author
+tags: 
+  - Google Apps Script
+  - Tutorial
+image: 
+image-credit:
 ---
-Title: Build a time tracking app with Google Apps Script and Plotly
-Subtitle: Extend Google Sheets to create your own custom tools
-
 ![data entry](https://storage.googleapis.com/ei-dev-assets/assets/Arc_QOGNMtWkfq.png)
 
 Have you ever had an idea for an app but you just can't find the right combination of features in what's available on the web? Have you ever wanted to prototype something but weren't sure where to start? What if I told you that you could extend Google Sheets to build your own custom tools?
@@ -43,21 +42,5 @@ I also want to make it as easy as possible to log a new task. I want to simply l
  
 Now that we know where we're going, let's get started!
 
-Next: [Time Tracker - part 1](https://eriktuck.com/time-tracker---part-1)
+Next: [Time Tracker - part 1](https://eriktuck.com/blog/time-tracker---part-1)
 
-## Archive
-Whenever I begin a new project, I always take the time to clearly define what I am trying to accomplish, and more importantly, why.
-
-You've just completed a great analysis and uncovered a stunning insight. You're ready to share with decision makers at your organization. You're about to open a slide deck and drop in some charts. Then you think, "there's got to be a better way...". 
-
-The "last mile of analytics"[^1] is the distance between your analysis and the decision makers. Static reports and slide decks fall flat because they don't allow your audience to interact with the data, adapting the analysis to help them with the decisions they face. 
-
-Luckily, there is a better way. Google Apps Script allows you to quickly create applications that integrate with Google Workspace.
-
-Apps Script is like Excel's VBA, but way better. Why? Because you write JavaScript instead of some arcane language that you need to learn for a single application. It is also a fully-fledged application development platform with free web hosting. I would argue that Google Apps Script is one of the better kept secrets for building and deploying lightweight web applications. 
-
-Anyone can get started building applications with Apps Script for free. If your organization has a Google Workspace account, it is a great choice for creating business applications that integrate with Google Workspace. 
-
-Subtitle: Google Apps Script is the best kept secret for building and deploying data applications.
-
-[^1]: Brahm, Chris. (2017), [_Chris Brahm: The Last Mile of Analytics_](https://www.bain.com/insights/chris-brahm-the-last-mile-of-analytics-video/), Bain & Company.

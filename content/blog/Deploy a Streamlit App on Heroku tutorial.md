@@ -3,7 +3,11 @@ title: "Deploy a Streamlit App on Heroku tutorial"
 date: 2025-03-13T10:00:00-05:00
 draft: true
 summary: "ADD A SUMMARY"
-tags: ["Python", "Tutorial", "Streamlit", "Heroku"]
+tags: 
+  - Python
+  - Tutorial
+  - Streamlit
+  - Heroku
 ---
 This tutorial will walk you through the process of deploying a `streamlit` app on Heroku. You'll need to set up a [virtual environment](https://io.eriktuck.com/),  understand the basics of git, and be comfortable working from the command line. You should also review the [Google API tutorial](https://io.eriktuck.com/) to set up Google Sheets as a back-end.
 
