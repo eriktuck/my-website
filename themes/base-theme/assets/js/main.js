@@ -132,8 +132,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateCarousel() {
-        const slideWidth = 100 / slidesPerView;
-        track.style.transform = `translateX(-${currentIndex * slideWidth}%)`;
+        const slide = document.querySelector('.carousel-slide');
+        if (!slide) return;
+        
+        // Get the number of slides to show based on screen width
+        slidesPerView = getSlidesPerView();
+        
+        // Calculate the slide width percentage
+        const slideWidthPercentage = 100 / slidesPerView;
+        
+        // Calculate the transform value
+        const transformValue = -currentIndex * slideWidthPercentage;
+        
+        // Apply the transform
+        track.style.transform = `translateX(${transformValue}%)`;
+        
+        // Update dots and ARIA attributes
+        updateDots();
+        
+        // Update slides' visibility for screen readers
+        slides.forEach((slide, index) => {
+            const isVisible = index >= currentIndex && index < currentIndex + slidesPerView;
+            slide.setAttribute('aria-hidden', !isVisible);
+            slide.setAttribute('tabindex', isVisible ? '0' : '-1');
+        });
         
         // Update ARIA attributes
         slides.forEach((slide, index) => {

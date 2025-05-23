@@ -122,27 +122,6 @@
   align-items: flex-end;
 }
 
-/* Theme Transition */
-/* .no-transition * {
-  transition: none !important;
-} */
-
-/* .theme-transition-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 9999;
-  pointer-events: none;
-  transition: background-color 0.5s ease;
-} */
-
-/* .theme-transition-overlay.active {
-  background-color: rgba(0, 0, 0, 0.95);
-} */
-
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -809,19 +788,37 @@ main {
   width: 100%;
   overflow: hidden;
   margin: 2rem 0;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease;
-  gap: 20px;
-  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .carousel-slide {
-  flex: 0 0 calc(33.333% - 14px);
-  min-width: 0;
+  flex: 0 0 100%;
+  padding: 0 5px;
   box-sizing: border-box;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+  .carousel-slide {
+    flex: 0 0 50%;
+  }
+}
+
+/* Desktop screens */
+@media (min-width: 1200px) {
+  .carousel-slide {
+    flex: 0 0 33.333%;
+  }
 }
 
 .carousel-slide:first-child {
@@ -999,13 +996,26 @@ main {
   }
 }
 
-@media (max-width: 768px) {
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+  .carousel-container {
+    padding: 0 15px;
+    overflow: hidden;
+  }
+  
   .carousel-slide {
     flex: 0 0 100%;
+    padding: 0 5px;
   }
   
   .project-image {
     height: 180px;
+  }
+  
+  .project-card {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
   }
 }
 
