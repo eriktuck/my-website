@@ -547,6 +547,12 @@ main {
 }
 
 @media (max-width: 768px) {
+  .hero-visualization {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   .container {
     width: 90%;
   }
