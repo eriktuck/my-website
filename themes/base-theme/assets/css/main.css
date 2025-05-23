@@ -1344,6 +1344,7 @@ main {
 
 .social-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
   margin-bottom: 20px;
