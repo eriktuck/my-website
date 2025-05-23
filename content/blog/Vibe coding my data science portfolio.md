@@ -10,7 +10,7 @@ image-credit: Screenshot by author
 ---
 This is the story of how I "vibe coded" a web portfolio to showcase my data science projects. 
 
-Along the way I tested new AI tools, explored the personalities of each chat model, pitted LLMs against each other in a design battle royale, and discovered a new way of integrating AI with my workflows. It was a journey, but I finally have something I am proud to share. You can find it at `localhost:1313` (that's a joke, read on to see how it turned out).
+Along the way I tested new AI tools, explored the personalities of each chat model, pitted LLMs against each other in a design battle royale, and discovered a new way of integrating AI with my workflows. It was a journey, but I finally have something I am proud to share. You can find it at `localhost:1313` (that's a joke, you're here, this is my portfolio).
 ## the call to adventure
 I'm a reluctant front-end developer. I have built many user interfaces for data apps in my career, and I've deployed a fair amount to the web. I have strong opinions about user experience and a high standard for design (at least I'd like to think so). I just can't always translate the vision in my head to the web page.
 
@@ -108,7 +108,6 @@ All the while I had a local server watching the changes happen in real time. (I 
 
 I don't know that this still qualifies as "vibe coding". I had to take ownership of nearly every line of code in the codebase. If I didn't have experience in web development, I don't know how far I would have gotten. In the end, I was glad for the struggle since it forced me to not only learn Hugo but it also showed me a new way of integrating AI agents while coding. 
 
-As promised, you can find the finished site at [eriktuck.com](eriktuck.com).
 ## lessons learned
 If you're thinking about following in my footsteps, I'll offer a few pieces of advice:
 
