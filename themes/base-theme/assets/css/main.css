@@ -1783,11 +1783,47 @@ input:checked + .slider:before {
   }
 }
 
+/* Mobile-specific viewport fixes */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
 /* Responsive Enhancements */
 @media (max-width: 768px) {
-  .fixed-header .container {
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .fixed-header {
+    position: fixed !important;
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0.5rem 5% !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    z-index: 1000;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+  }
+  
+  .fixed-header .container,
+  .fixed-header > .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
     flex-direction: column;
     gap: 0.5rem;
+    box-sizing: border-box !important;
   }
 
   .fixed-header nav {
@@ -1797,6 +1833,9 @@ input:checked + .slider:before {
 
   .fixed-header nav ul {
     justify-content: center;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .fixed-header .theme-switch-wrapper {
