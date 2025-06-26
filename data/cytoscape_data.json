@@ -3,13 +3,6 @@
         "nodes": [
             {
                 "data": {
-                    "id": "",
-                    "label": "",
-                    "url": "https://io.eriktuck.com/"
-                }
-            },
-            {
-                "data": {
                     "id": "concatenate and join",
                     "label": "concatenate and join",
                     "url": "https://io.eriktuck.com/base/Google+Sheets/concatenate+and+join"
@@ -3715,41 +3708,6 @@
             },
             {
                 "data": {
-                    "id": "psql--0",
-                    "source": "psql",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "psql--1",
-                    "source": "psql",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "psql--2",
-                    "source": "psql",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "psql--3",
-                    "source": "psql",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "psql--4",
-                    "source": "psql",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
                     "id": "psql-Google Sheets-0",
                     "source": "psql",
                     "target": "Google Sheets"
@@ -4961,41 +4919,6 @@
             },
             {
                 "data": {
-                    "id": "pgAdmin--0",
-                    "source": "pgAdmin",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "pgAdmin--1",
-                    "source": "pgAdmin",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "pgAdmin--2",
-                    "source": "pgAdmin",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "pgAdmin--3",
-                    "source": "pgAdmin",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
-                    "id": "pgAdmin--4",
-                    "source": "pgAdmin",
-                    "target": ""
-                }
-            },
-            {
-                "data": {
                     "id": "pgAdmin-Bash-0",
                     "source": "pgAdmin",
                     "target": "Bash"
@@ -5979,13 +5902,6 @@
                     "id": "add conda and mamba to Bash PATH-enable conda and mamba on Bash-0",
                     "source": "add conda and mamba to Bash PATH",
                     "target": "enable conda and mamba on Bash"
-                }
-            },
-            {
-                "data": {
-                    "id": "GitHub pages--0",
-                    "source": "GitHub pages",
-                    "target": ""
                 }
             },
             {
@@ -7253,13 +7169,6 @@
                     "id": "c4builder-GraphViz-0",
                     "source": "c4builder",
                     "target": "GraphViz"
-                }
-            },
-            {
-                "data": {
-                    "id": "c4builder--0",
-                    "source": "c4builder",
-                    "target": ""
                 }
             },
             {
