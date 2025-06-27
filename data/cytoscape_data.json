@@ -1564,6 +1564,13 @@
             },
             {
                 "data": {
+                    "id": "base/Algorithms/recursion",
+                    "label": "base/Algorithms/recursion",
+                    "url": "https://io.eriktuck.com/"
+                }
+            },
+            {
+                "data": {
                     "id": "install git",
                     "label": "install git",
                     "url": "https://io.eriktuck.com/base/Git/install+git"
@@ -4933,6 +4940,13 @@
             },
             {
                 "data": {
+                    "id": "divide-and-conquer-base/Algorithms/recursion-0",
+                    "source": "divide-and-conquer",
+                    "target": "base/Algorithms/recursion"
+                }
+            },
+            {
+                "data": {
                     "id": "shell-Bash-0",
                     "source": "shell",
                     "target": "Bash"
@@ -5167,6 +5181,13 @@
                     "id": "quicksort-sort-0",
                     "source": "quicksort",
                     "target": "sort"
+                }
+            },
+            {
+                "data": {
+                    "id": "quicksort-base/Algorithms/recursion-0",
+                    "source": "quicksort",
+                    "target": "base/Algorithms/recursion"
                 }
             },
             {
@@ -7778,6 +7799,20 @@
                     "id": "Postgres-psql-0",
                     "source": "Postgres",
                     "target": "psql"
+                }
+            },
+            {
+                "data": {
+                    "id": "heap-base/Algorithms/recursion-0",
+                    "source": "heap",
+                    "target": "base/Algorithms/recursion"
+                }
+            },
+            {
+                "data": {
+                    "id": "heap-base/Algorithms/recursion-1",
+                    "source": "heap",
+                    "target": "base/Algorithms/recursion"
                 }
             },
             {
