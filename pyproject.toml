@@ -1,0 +1,12 @@
+[project]
+name = "my-website"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "obsidiantools",
+]
+
+[tool.uv.sources]
+obsidiantools = { git = "https://github.com/eriktuck/obsidiantools.git" }
