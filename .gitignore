@@ -26,6 +26,9 @@ Thumbs.db
 .env
 .env.local
 
+# Python files
+*.pyc
+
 # Dependency directories
 node_modules/
 bower_components/
