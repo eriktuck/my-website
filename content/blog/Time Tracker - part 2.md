@@ -1,15 +1,16 @@
 ---
-title: "Use Google Apps Script to automate key processes (part 2 of 3)"
-date: 2024-08-20T10:00:00-05:00
+date: 2024-08-20 10:00:00-05:00
 draft: false
-summary: "Extend Google Sheets to create your own custom tools"
-tags: 
-  - Google Apps Script
-  - Tutorial
+featured: false
 image: https://storage.googleapis.com/ei-dev-assets/assets/0__lHyEfrVvZtSxMZR.webp
 image-credit: Screen capture by author
-featured: false
+summary: Extend Google Sheets to create your own custom tools
+tags:
+- Google Apps Script
+- Tutorial
+title: Use Google Apps Script to automate key processes (part 2 of 3)
 ---
+
 In part 2 of the [Time Tracker](https://eriktuck.com/blog/time-tracker) tutorial, we'll use Google Apps Script to automate the process of logging the data at the end of each week and clearing out the data entry form for the next week. 
 
 ![img](https://storage.googleapis.com/ei-dev-assets/assets/0__lHyEfrVvZtSxMZR.webp)

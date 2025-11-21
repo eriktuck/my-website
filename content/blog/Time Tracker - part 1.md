@@ -1,15 +1,17 @@
 ---
-title: "Build the data entry form for a time tracking app using Google Sheet (part 1 of 3)"
-date: 2024-08-20T10:00:00-05:00
+date: 2024-08-20 10:00:00-05:00
 draft: false
-summary: "Extend Google Sheets to create your own custom tools"
-tags: 
-  - Google Apps Script
-  - Tutorial
+featured: false
 image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_TNR6BeHm6v.png
 image-credit: Screen capture by author
-featured: false
+summary: Extend Google Sheets to create your own custom tools
+tags:
+- Google Apps Script
+- Tutorial
+title: Build the data entry form for a time tracking app using Google Sheet (part
+  1 of 3)
 ---
+
 Welcome to part 1 of this tutorial. We'll build the data entry form for a time tracking app using Google Sheets. For an overview of the project, please see the [Time Tracker](https://eriktuck.com/blog/time-tracker) guide.
 ## step 1. create the data entry form
 Let's start by building a data entry form in a new Google Sheet for a single day.
@@ -102,4 +104,3 @@ Congratulations on setting up the Time Tracker! In part 1 of this tutorial, you 
 You can access a copy of the Time Tracker based on this tutorial [here](https://docs.google.com/spreadsheets/d/1tUwRvQpkjJOs3F4deWPFyR9uvGd2FyBagJQufUTf790/template/preview). Please click the **USE TEMPLATE** button to make a copy into your own Google Drive.
 
 In the [Time Tracker - part 2](https://eriktuck.com/blog/time-tracker---part-2), we'll use Google Apps Script to automate the process of logging the data at the end of each week and clearing out the data entry form for the next week.
-

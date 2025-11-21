@@ -1,14 +1,14 @@
 ---
-title: "Use the Plotly JavaScript library to create data visualizations (part 3 of 3)"
-date: 2024-08-20T10:00:00-05:00
+date: 2024-08-20 10:00:00-05:00
 draft: false
-summary: "Extend Google Sheets to create your own custom tools"
-tags: 
-  - Google Apps Script
-  - Tutorial
+featured: false
 image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_HAOBhvqkIt.png
 image-credit: Screen capture by author
-featured: false
+summary: Extend Google Sheets to create your own custom tools
+tags:
+- Google Apps Script
+- Tutorial
+title: Use the Plotly JavaScript library to create data visualizations (part 3 of 3)
 ---
 
 In this third and final part of the [Time Tracker](https://eriktuck.com/blog/time-tracker) tutorial, we will use the [Plotly JavaScript library](https://plotly.com/javascript/) to visualize how we spend our time. You'll get experience with the [App Script HTML Service](https://plotly.com/javascript/getting-started/), learn how to leverage third-party libraries, and the discover the basics of how to use Plotly to create data visualizations.

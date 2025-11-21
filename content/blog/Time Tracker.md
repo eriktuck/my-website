@@ -1,14 +1,15 @@
 ---
-title: "Build a time tracking app with Google Apps Script and Plotly"
-date: 2024-08-20T10:00:00-05:00
+date: 2024-08-20 10:00:00-05:00
 draft: false
-summary: "Extend Google Sheets to create your own custom tools"
-tags: 
-  - Google Apps Script
-  - Tutorial
-image: 
-image-credit:
+image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_QOGNMtWkfq.png
+image-credit: Screen capture by author
+summary: Extend Google Sheets to create your own custom tools
+tags:
+- Google Apps Script
+- Tutorial
+title: Build a time tracking app with Google Apps Script and Plotly
 ---
+
 ![data entry](https://storage.googleapis.com/ei-dev-assets/assets/Arc_QOGNMtWkfq.png)
 
 Have you ever had an idea for an app but you just can't find the right combination of features in what's available on the web? Have you ever wanted to prototype something but weren't sure where to start? What if I told you that you could extend Google Sheets to build your own custom tools?
@@ -43,4 +44,3 @@ I also want to make it as easy as possible to log a new task. I want to simply l
 Now that we know where we're going, let's get started!
 
 Next: [Time Tracker - part 1](https://eriktuck.com/blog/time-tracker---part-1)
-

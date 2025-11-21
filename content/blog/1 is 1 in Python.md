@@ -1,13 +1,14 @@
 ---
-title: "1 is 1 in Python"
-date: 2025-03-13T10:00:00-05:00
+date: 2025-03-13 10:00:00-05:00
 draft: false
-summary: "A case study on the importance of a hacker mindset for new coders"
-tags: 
-  - Python
 image: https://storage.googleapis.com/ei-dev-assets/assets/photo-1586776977607-310e9c725c37.avif
 image-credit: Photo by [Ken Suarez](https://unsplash.com/@kensuarez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-and-white-computer-keyboard-4IxPVkFGJGI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+summary: A case study on the importance of a hacker mindset for new coders
+tags:
+- Python
+title: 1 is 1 in Python
 ---
+
 
 Curiosity is one of the more important attributes you can have as a new coder. It is probably what brought you to coding in the first place. Some call it a "hacker mindset". A hacker mindset is not about breaking into systems, but rather about deeply understanding how things work and then experimenting to improve, repurpose (and sometimes subvert) them in unexpected ways.
 

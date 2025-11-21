@@ -1,15 +1,16 @@
 ---
-title: "The definitive guide to installing Claude Code on Windows"
-date: 2025-04-11T10:00:00-05:00
+date: 2025-04-11 10:00:00-05:00
 draft: false
-summary: "Step-by-step from a fresh install of Windows 11"
-tags: 
-  - Tutorial
-  - Claude
-  - AI
 image: https://storage.googleapis.com/ei-dev-assets/assets/0_ocB2-shoqNeEClvq.webp
 image-credit: Screen capture by author
+summary: Step-by-step from a fresh install of Windows 11
+tags:
+- Tutorial
+- Claude
+- AI
+title: The definitive guide to installing Claude Code on Windows
 ---
+
 **Step-by-step from a fresh install of Windows 11**
 
 [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) is the new agentic coding assistant from Anthropic. You can develop entire applications just by typing natural language instructions into your command line. (Watch Joel Grus [code a word ladder game](https://www.youtube.com/watch?v=7nLjHldVhF4) with Claude Code to see it in action.)
@@ -186,4 +187,3 @@ Set-ExecutionPolicy -Scope CurrentUser Restricted
 ```
 
 Then close the terminal.
-

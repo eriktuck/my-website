@@ -1,14 +1,16 @@
 ---
-title: How to integrate generative AI in Obsidian
 date: 2025-06-13
 draft: false
-summary: A review of common approaches to leveraging the power of generative AI in personal knowledge management systems.
+image: null
+image-credit: null
+summary: A review of common approaches to leveraging the power of generative AI in
+  personal knowledge management systems.
 tags:
-  - Obsidian
-  - AI
-image: 
-image-credit:
+- Obsidian
+- AI
+title: How to integrate generative AI in Obsidian
 ---
+
 If you're thinking about adding AI to your Obsidian Vault, start here. This article details the most common approaches to integrating generative AI in Obsidian. For each approach, I provide a curated list of YouTube videos that can help you get started.
 
 Options I discuss in this article include
@@ -125,7 +127,7 @@ If you prefer to not share your chats and information with a third party, you ca
 > [!NOTE]
 > You may see references to [Custom Frames](https://github.com/Ellpeck/ObsidianCustomFrames) community plugin as an earlier alternative to Web Viewer. Simply use Web Viewer instead.  
 ### open your Vault in an IDE
-Why not open your Vault in an AI-powered [IDE](https://io.eriktuck.com/base/IDE) such as [VS Code](https://io.eriktuck.com/) with Copilot, [Cursor](https://io.eriktuck.com/), or [Windsurf](https://io.eriktuck.com/)? Obsidian's ethos proves valuable here again. By storing files locally and using an open-source file format like [Markdown](https://io.eriktuck.com/base/Markdown), you can use any application that also supports Markdown to interact with your notes. 
+Why not open your Vault in an AI-powered [IDE](https://io.eriktuck.com/base/IDE) such as [VS Code](https://io.eriktuck.com/base/VS+Code/VS+Code) with Copilot, [Cursor](https://io.eriktuck.com/), or [Windsurf](https://io.eriktuck.com/base/Windsurf)? Obsidian's ethos proves valuable here again. By storing files locally and using an open-source file format like [Markdown](https://io.eriktuck.com/base/Markdown), you can use any application that also supports Markdown to interact with your notes. 
 
 The primary downside to this approach is that the LLMs included in these IDEs are fine tuned for coding tasks rather than text. You'll probably get better results from a community plugin, but for developers that use Obsidian in their day-to-day work and already subscribe to one of these services, this might prove useful and economical.
 
@@ -165,5 +167,3 @@ Are you inspired to add generative AI to your Obsidian workflow? Or terrified of
 If none of the options I discussed meet your needs, you might use a tool like Claude Code to *develop your own plugin*. According to Nick Milo (creator of the [Linking Your Thinking](https://www.linkingyourthinking.com/) Obsidian community), in his June 13, 2025 newsletter, he was able to create a plugin for Obsidian even though he doesn't know how to code! The possibilities are limited only by your imagination.
 
 I'd love to hear how you are using AI in Obsidian. Let me know in the comments below!
-
-

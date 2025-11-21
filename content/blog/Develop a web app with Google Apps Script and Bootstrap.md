@@ -1,15 +1,16 @@
 ---
-title: "Develop a web app with Google Apps Script and Bootstrap"
-date: 2024-12-30T10:00:00-05:00
+date: 2024-12-30 10:00:00-05:00
 draft: false
-summary: "Get started using Bootstrap to style your web apps"
-tags: 
-  - Google Apps Script
-  - Bootstrap
-  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/chrome_fjAHdplxVu.png
 image-credit: Image by author
+summary: Get started using Bootstrap to style your web apps
+tags:
+- Google Apps Script
+- Bootstrap
+- Tutorial
+title: Develop a web app with Google Apps Script and Bootstrap
 ---
+
 After completing this tutorial, you will know how to set up and deploy a standalone web application with Google Apps Script, use Bootstrap for styling, read data from a Google Sheet, and dynamically populate the web app using JavaScript.
 
 ![img](https://storage.googleapis.com/ei-dev-assets/assets/chrome_fjAHdplxVu.png)
@@ -619,4 +620,3 @@ function include(filename){
 
 </style>
 ```
-

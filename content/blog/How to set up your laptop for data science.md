@@ -1,14 +1,15 @@
 ---
-title: How to set up your laptop for data science in 2025 (Windows edition)
-date: 2025-02-26T10:00:00-05:00
+date: 2025-02-26 10:00:00-05:00
 draft: false
-summary: Install Python with miniforge3 and mamba
-tags:
-  - Python
-  - Tutorial
 image: https://storage.googleapis.com/ei-dev-assets/assets/1_7tdU3bdEW3brjdvAKorVMQ.webp
 image-credit: Made by author with ChatGPT
+summary: Install Python with miniforge3 and mamba
+tags:
+- Python
+- Tutorial
+title: How to set up your laptop for data science in 2025 (Windows edition)
 ---
+
 > [!NOTE] TL;DR
 > I install Python with the miniforge3 distribution and manage packages with  `mamba`.  I write code in VS Code and Jupyter Notebooks. Version control provided by Git for Windows and backed up on GitHub. If you want to jump straight in, scroll down to the installation instructions. 
 
@@ -57,7 +58,7 @@ Tools and technologies come and go. I have adopted and discarded an array of dif
 > There is no doubt that generative AI will deeply affect the way data science is done in the next few years. I recommend you look for software options that support generative AI so you can benefit from its many advantages, but avoid relying too much on AI while you are learning.   
 ## installation instructions
 Follow these installation instructions in order for the best experience. Click through the header links to see screen-by-screen installation instructions.
-### [install VS Code](https://io.eriktuck.com/)
+### [install VS Code](https://io.eriktuck.com/base/VS+Code/install+VS+Code)
 Start with VS Code so that we can set it as our default editor when downloading other software.
 - Download the VS Code installer (available [here](https://code.visualstudio.com/download)) and install VS Code.
 
@@ -72,7 +73,7 @@ You may need to select the miniforge3 interpreter before you use VS Code for the
 - Begin typing to find `Python: Select Interpreter`.
 - Select miniforge3. 
 - Restart VS Code to take effect.
-### [install git](https://io.eriktuck.com/)
+### [install git](https://io.eriktuck.com/base/Git/install+git)
 - Download the Git installer (available [here](https://git-scm.com/downloads)). 
 
 > [!Tip]
@@ -86,7 +87,7 @@ You may need to select the miniforge3 interpreter before you use VS Code for the
 
 > [!tip] Learn Git
 > Git's [reference manual](https://git-scm.com/docs) is a great resource. The Pro Git book is available online for free [here](https://git-scm.com/book/en/v2). When I started with Git, I took a [short course on Udemy](https://www.udemy.com/share/10210a3@-Yb4fpF6NyipgnlqAy7GnnrHSPvF8OZeLO-_WbE24v1R-fkLQwUfYMc75smpE-4u/). Git isn't hard to use, but to use well you'll need some additional instruction.
-### [configure git](https://io.eriktuck.com/)
+### [configure git](https://io.eriktuck.com/base/Git/configure+git)
 To get the most from git, you can configure a few of its global settings. We'll use the newly installed Git Bash (installed with git) to run commands that configure git. If this is your first time using a command line interface, don't worry! 
 
 - Open Git Bash (installed with git), and type the following commands, running one line at a time:
@@ -105,13 +106,13 @@ git config --global core.editor "code --wait"
 ```
 
 Use command `git config --global -e` to confirm this worked. VS Code should open and display the contents of Git's configuration file. You can now close VS Code and Git Bash.
-### [install miniforge3](https://io.eriktuck.com/)
+### [install miniforge3](https://io.eriktuck.com/base/miniforge/install+miniforge3)
 - Download the [installer](https://github.com/conda-forge/miniforge?tab=readme-ov-file) for your operating system (scroll down to the Install section of the README) and run the installer. I recommend a few changes to the default settings: 
 	- In *Advanced Installation Options* check the boxes for 
 		- **Create shortcuts**  
 		- **Register Miniforge3 as my default Python**
 		- Do not select the option to add minforge3 to your PATH variable.
-### [add conda and mamba to Bash PATH](https://io.eriktuck.com/)
+### [add conda and mamba to Bash PATH](https://io.eriktuck.com/base/Bash/add+conda+and+mamba+to+Bash+PATH)
 - Navigate to the miniforge3 directory using your File Explorer. 
 - Navigate to the subdirectory `miniforge3/etc/profile.d` . 
 - Right-click and select **Git Bash Here** from the context menu. 
@@ -126,7 +127,7 @@ echo ". '${PWD}'/mamba.sh" >> ~/.bashrc
 
 >[!INFO] 
 >With this command, you are writing (`echo`) the file path to the `conda.sh` file by replacing `PWD` with the path to the current working directory to a file called `.bashrc` that is stored in your home directory (denoted by the `~`).
-### [enable conda and mamba on Bash](https://io.eriktuck.com/)
+### [enable conda and mamba on Bash](https://io.eriktuck.com/base/Bash/enable+conda+and+mamba+on+Bash)
 The first time you use `mamba` or `conda` in any shell you need to initialize it.
 
 - Run the following command with Git Bash:
@@ -138,7 +139,7 @@ conda init bash
 - Restart Git Bash for the changes to take effect.
 
 Now, when you open Git Bash you can use `conda` or `mamba` commands like `mamba env list` to list all available environments.
-### [install Jupyter Notebook](https://io.eriktuck.com/)
+### [install Jupyter Notebook](https://io.eriktuck.com/base/Jupyter+Notebooks/install+Jupyter+Notebook)
 Install Jupyter Notebook in the`base` environment (more on environments later). 
 
 -  In Git Bash, ensure the `base` environment is activated by running the command:
@@ -161,7 +162,7 @@ mamba install nb_conda_kernels
 mamba install nbconvert
 ```
 
-To access the Jupyter Notebook in any new environment, simply install the [iPython kernel](https://io.eriktuck.com/) in that environment. 
+To access the Jupyter Notebook in any new environment, simply install the [iPython kernel](https://io.eriktuck.com/base/Jupyter+Notebooks/iPython+kernel) in that environment. 
 
 > [!warning] Avoid installing packages in the base environment
 > It's considered bad practice to pollute the base environment with a bunch of packages. You'll want to set up a dedicated environment for each project. If you simply use the base environment for everything, you'll inevitably run into version conflicts that prevent one or another of your projects' code from running. Jupyter Notebook is the exception to this rule.
