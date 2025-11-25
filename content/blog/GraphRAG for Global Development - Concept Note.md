@@ -5,7 +5,7 @@ image: null
 image-credit: null
 summary: This concept note introduces a GraphRAG approach to extracting knowledge
   from global development documentation and invites partners to contribute.
-tags: []
+tags: ["AI", "Knowledge Graph", "RAG"]
 title: GraphRAG for Global Development - Concept Note
 ---
 
@@ -33,10 +33,10 @@ Current approaches to organize and distribute development knowledge focus on doc
 
 Recognizing these limitations, international development organizations have developed domain-specific taxonomies and ontologies to improve the discoverability and interoperability of knowledge across and within institutions. Initiatives such as the [United Nations Bibliographic Information System (UNBIS) Thesaurus](https://metadata.un.org/thesaurus/?lang=en)  and the [Sustainable Development Goals (SDG) Taxonomy](https://metadata.un.org/sdg/?lang=en) aim to standardize how concepts, sectors, and themes are described. While these efforts improve consistency, cross-institutional learning at scale will require a more expressive, machine-readable layer capable of connecting concepts across documents and institutions.
 
-Recent work has highlighted the value of knowledge graphs as a shared semantic layer for integrating data related to global development, particularly around tracking progress toward the United Nations Sustainable Development Goals (SDGs). Notable efforts include the SDG Knowledge Organization System [8] and SustainGraph [9]. Building on these initiatives, this project proposes a knowledge graph designed specifically to support cross-institutional learning and large-scale knowledge synthesis. Implemented using the Resource Description Framework (RDF) and grounded in standard taxonomies and ontologies, the graph will represent entities, relationships, and document metadata in a machine-readable, standards-compliant format. It will enable two core capabilities:
+Recent work has highlighted the value of knowledge graphs as a shared semantic layer for integrating data related to global development, particularly around tracking progress toward the United Nations SDGs. Notable efforts include the SDG Knowledge Organization System [8] and SustainGraph [9]. Building on these initiatives, this project proposes a knowledge graph designed specifically to support cross-institutional learning and large-scale knowledge synthesis. Implemented using the Resource Description Framework (RDF) and grounded in standard taxonomies and ontologies, the graph will represent entities, relationships, and document metadata in a machine-readable, standards-compliant format. It will enable two core capabilities:
 
 - **Data linking and enrichment:** Entities extracted from text are mapped to established taxonomies and ontologies such as UNBIS and the SDG taxonomy, ensuring semantic interoperability and enabling reuse across organizations. Additional enrichment is achieved by linking entities to external knowledge bases on the semantic web (e.g., Wikidata [10]).
-- **Progressive synthesis for knowledge extraction:** Using the GraphRAG (graph retrieval-augmented generation) methodology, graph algorithms identify communities of related text, which are then synthesized by a large language model (LLM). This allows the system to surface higher-order patterns and support sensemaking and question-answering workflows.
+- **Progressive synthesis for knowledge extraction:** Using the GraphRAG methodology, graph algorithms identify communities of related text, which are then synthesized by a large language model (LLM). This allows the system to surface higher-order patterns and support sensemaking queries in  question-answering workflows.
 
 The proposed solution will be delivered as an online, chat-based interface that enables open-domain, knowledge-graph-aware question answering.
 
