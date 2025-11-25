@@ -2,8 +2,8 @@
 date: 2024-08-20 10:00:00-05:00
 draft: false
 featured: false
-image: https://storage.googleapis.com/ei-dev-assets/assets/Arc_TNR6BeHm6v.png
-image-credit: Screen capture by author
+image: 
+image-credit:
 summary: Extend Google Sheets to create your own custom tools
 tags:
 - Google Apps Script
