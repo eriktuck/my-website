@@ -3,7 +3,7 @@ title: "Classifying transactions with deep learning for financial models"
 date: 2025-04-20T10:00:00-05:00
 draft: false
 summary: "An AI-powered classifier for financial transactions"
-tags: ["Deep Learning", "Python"]
+tags: ["Deep Learning"]
 image: https://storage.googleapis.com/ei-dev-assets/assets/dragonfly-wing-gpt.png
 imageCredit: "Image created by author using GPT-4"
 github: https://github.com/eriktuck/txn-classifier
